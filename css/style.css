@@ -616,6 +616,10 @@ body, html {
         white-space: normal;
     }
 
+    .text-container{
+        width: 90%;
+    }
+
     .text-container p{
         font-size: 25px;
     }
