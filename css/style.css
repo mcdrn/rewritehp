@@ -1,0 +1,672 @@
+@charset "utf=8";
+
+main,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+    max-width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* 下からふわっと上がる */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    box-shadow: 0 0 10px -6px #000;
+    z-index: 1000;
+    background-color: #fff;
+    max-width: 100%;
+}
+
+
+.hamburger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    background: #333;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+
+
+.header-all{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header-upper{
+    justify-content: center;
+}
+
+.header-logo{
+    display: flex;
+}
+
+.logo-text{
+    margin: auto 0 5px;
+}
+
+.header-under{
+    height: 60px;
+}
+
+.index{
+    display: flex;
+    height: 100%;
+}
+
+ul{
+
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.first-view{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/img-1.jpg) no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text-container h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.text-content {
+    opacity: 0; /* 最初は非表示 */
+    animation: fadeIn 2s ease-in-out forwards; /* 2秒かけてフェードイン */
+}
+
+.text-content h1 {
+    animation-delay: 0.5s;
+}
+.text-content p {
+    animation-delay: 1s;
+}
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    max-width: 1200px; 
+    height: 150px; 
+    margin: 70px auto;
+    /* overflow-x: scroll; */
+}
+
+.swiper-wrapper{
+    padding: auto;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: auto;
+    max-height: 100%;
+    padding: auto;
+}
+
+
+
+
+.topics {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.topics-main{
+    display: flex;
+    padding-bottom: 0;
+    margin: auto;
+    padding: auto;
+}
+
+.topics h2 {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.topics p{
+    font-size: 25px;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+
+.topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.topic {
+    width: 100%;
+    max-width: 600px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    transition: opacity 0.3s ease;
+    display: flex;
+}
+
+.topic:hover {
+    opacity: 0.7;
+}
+
+
+.topic img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.topic-info {
+    padding: auto;
+    margin: auto;
+    max-width: 550px;
+    width: 100%;
+}
+
+.topic-tab {
+display: flex;
+max-width: 550px;
+gap: 30px;
+}
+
+.topic-info h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: auto;
+    white-space: nowrap; 
+    max-width: 550px;
+}
+
+
+.topic a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/* ビジョンセクション */
+.vision {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/img-2.jpg') no-repeat center center/cover ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 左寄せ */
+    padding-left: 10%;
+}
+
+/* オーバーレイ（背景を暗くする） */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* テキストコンテナ */
+.text-container-2 {
+    position: relative;
+    max-width: 600px;
+    text-align: left; /* 左寄せ */
+    color: white;
+    z-index: 2;
+    opacity: 0; /* 最初は非表示 */
+    transform: translateY(30px); /* ちょっと下にずらす */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.text-container-2.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 見出し */
+.text-container-2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    animation-delay: 0.3s;
+}
+
+.text-container-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    animation-delay: 0.6s;
+}
+
+/* 段落 */
+.text-container-2 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    animation-delay: 0.9s;
+}
+
+
+
+
+/* セクションタイトル */
+.section-title {
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* 各プロダクト */
+/* スクロールでフェードイン（初期状態） */
+.product {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    opacity: 0; /* 最初は非表示 */
+    transform: translateY(30px); /* 少し下にずらす */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+/* フェードイン発動時（クラスが追加されたら表示） */
+.product.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.product img {
+    width: 100%;
+    max-width: 250px; /* 画像の最大幅を小さく */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.product h3 {
+    font-size: 1.5rem;
+    color: #0073aa;
+    margin-bottom: 5px;
+}
+
+.product h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* スクロールでフェードイン */
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* 全体設定 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* カード全体をクリック可能に */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* 画像部分 */
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+/* テキスト部分 */
+.card-text {
+    text-align: left;
+}
+
+/* タイトルと矢印 */
+.card-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 矢印のデザイン */
+.arrow {
+    font-size: 1.5rem;
+    color: #0073aa;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* ホバー時に矢印を右へスライド */
+.card:hover .arrow {
+    transform: translateX(10px);
+    color: #005a87;
+}
+
+/* スクロールでフェードイン */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* スマホ版 */
+@media(max-width: 480px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+
+    .hamburger-menu {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 30px;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out;
+        display: block;
+    }
+    
+    .bar {
+        width: 80%;
+        height: 4px;
+        background: #333;
+        margin: 6px 0;
+        transition: 0.3s;
+    }
+
+    .header-all{
+        margin: 15px 0;
+    }
+
+
+    .header-under{
+        position: fixed;
+    top: 0;
+    right: -100%; /* 初期状態で画面外 */
+    width: 70%;
+    max-width: 300px;
+    height: 100%;
+    background: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 20px;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    }
+
+    .index{
+        display: block;
+    }
+
+    .index ul{
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .index ul li{
+        margin-bottom: 20px;
+    }
+
+    .index ul li a{
+        color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+    }
+
+    .close-btn {
+        position: fixed;
+        top: 8px;
+        right: 23px;
+        font-size: 55px;
+        cursor: pointer;
+        color: white;
+        transition: color 0.3s ease;
+        z-index: 1001;
+        display: none; /* 初期状態では非表示 */
+    }
+
+    .close-btn:hover {
+        color: #ffcc00;
+    }
+
+    .header-under.active{
+        right: 0;
+    }
+
+    .header-under.active ~ .hamburger-menu {
+        display: none;
+    }
+
+    .header-under.active .close-btn{
+        display: block;
+    }
+
+    body.no-scroll {
+        overflow: hidden;
+    }
+
+
+
+
+    .header-all{
+        margin-left: 0;
+    }
+
+
+
+    .logo-text{
+        display: none;
+    }
+
+    .topic-info h3{
+        white-space: normal;
+    }
+
+    .text-container p{
+        font-size: 25px;
+    }
+
+
+    .swiper-slide{
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .swiper{
+        margin: 40px auto;
+    }
+
+    .swiper-slide img{
+        width: 80%;
+        height: auto;
+    }
+
+
+    .topics-container{
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .topic{
+        width: 100%;
+    }
+
+    .topic img{
+        width: 50%;
+    }
+
+    .topic-info h3{
+        font-size: 14px;
+    }
+
+    .vision{
+        padding-left: 0;
+    }
+
+    .fade-in.visible{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
