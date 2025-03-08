@@ -660,6 +660,10 @@ body, html {
     }
 
     .fade-in.visible{
+
+    }
+
+    .text-container-2.fade-in{
         width: 80%;
         margin: auto;
     }
