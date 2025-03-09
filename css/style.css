@@ -7,6 +7,11 @@ main,body {
     overflow-x: hidden;
     text-align: center;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    color: #333;
 }
 
 @keyframes fadeIn {
@@ -52,6 +57,18 @@ header{
     transition: 0.3s;
 }
 
+
+.close-btn{
+    position: fixed;
+    top: 8px;
+    right: 23px;
+    font-size: 55px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+    z-index: 1001;
+    display: none; /* 初期状態では非表示 */
+}
 
 
 .header-all{
@@ -157,7 +174,7 @@ a{
 
 .swiper-wrapper{
     padding: auto;
-    height: auto;
+    width: auto;
 }
 
 .swiper-slide {
@@ -329,6 +346,16 @@ gap: 30px;
 
 
 /* セクションタイトル */
+.section-ceo{
+    position: relative;
+    background:url(https://placehold.jp/500x500.png) no-repeat center center /cover;
+}
+
+.section-saiyou{
+    position: relative;
+    background: url(https://placehold.jp/500x500.png) no-repeat center center /cover;
+}
+
 .section-title {
     font-size: 2.5rem;
     margin-top: 50px;
@@ -392,14 +419,7 @@ gap: 30px;
 }
 
 
-/* 全体設定 */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background: #f5f5f5;
-    color: #333;
-}
+
 
 /* カード全体をクリック可能に */
 .card-container {
@@ -413,7 +433,7 @@ body, html {
     position: relative;
     width: 90%;
     max-width: 800px;
-    background: white;
+    /* background: white; */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -486,12 +506,55 @@ body, html {
 
 
 
+.footer-text{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: #1c1c1c;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.footer-text h2{
+    color: #fff;
+    font-size: 17px;
+}
+
+.footer-text a{
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.footer-text a:hover{
+    text-decoration: underline;
+}
 
 
 
+.detailes{
+    display: flex;
+    flex-direction: column;
+}
 
 
+.copyright-tab{
+    padding: 20px 0 20px 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+
+.copyright-tab img{
+    height: 50px;
+}
+
+.copyright{
+    padding: 20px;
+}
 
 
 
@@ -663,9 +726,7 @@ body, html {
         padding-left: 0;
     }
 
-    .fade-in.visible{
 
-    }
 
     .text-container-2.fade-in{
         width: 80%;
@@ -673,7 +734,7 @@ body, html {
     }
 
     .text-container-2 h1{
-        font-size:  30px;
+        font-size:  33px;
     }
 
     .text-container-2 h2{
@@ -683,6 +744,37 @@ body, html {
     .text-container-2 p{
         font-size: 17px;
     }
+
+
+
+
+
+
+
+
+    .card{
+        height: 70%;
+    }
+
+
+    .footer{
+        display: block;
+        padding: 25px;
+    }
+
+    .footer-text h2{
+        font-size: 22px;
+        text-decoration: underline solid 2px;
+        text-underline-offset: 4px;
+    }
+
+
+
+    .copyright-tab{
+        display: block;
+        padding: 20px;
+    }
+
 }
 
 
