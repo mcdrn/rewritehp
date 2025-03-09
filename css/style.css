@@ -346,7 +346,7 @@ gap: 30px;
 
 
 /* セクションタイトル */
-.section-ceo{
+/* .section-ceo{
     position: relative;
     background:url(https://placehold.jp/500x500.png) no-repeat center center /cover;
 }
@@ -354,7 +354,7 @@ gap: 30px;
 .section-saiyou{
     position: relative;
     background: url(https://placehold.jp/500x500.png) no-repeat center center /cover;
-}
+} */
 
 .section-title {
     font-size: 2.5rem;
@@ -442,6 +442,8 @@ gap: 30px;
     color: inherit;
     display: block;
     padding: 20px;
+
+    background:url(https://placehold.jp/500x500.png) no-repeat center center /cover;
 }
 
 .card:hover {
