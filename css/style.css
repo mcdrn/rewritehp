@@ -97,6 +97,11 @@ header{
     height: 100%;
 }
 
+.index-text{
+    color: #000;
+}
+
+
 ul{
 
 }
@@ -735,6 +740,9 @@ gap: 30px;
     .index{
         display: block;
     }
+
+
+
 
     .index ul{
         list-style: none;
