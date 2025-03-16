@@ -10261,12 +10261,12 @@ pre.wp-block-verse {
 }
 
 .l-block--mission {
-    background-image: url(/assets/img/top/group_bg.webp)
+    background-image: url(../img/img-1.jpg)
 }
 
 @media screen and (max-width: 750px) {
     .l-block--mission {
-        background-image:url(/assets/img/top/group_bg--sp.webp)
+        background-image:url(../img/img-1.jpg)
     }
 }
 
@@ -12640,7 +12640,9 @@ pre.wp-block-verse {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    gap: 60px;
+    max-width: 650px;
+    margin: auto;    
 }
 
 @media screen and (max-width: 750px) {
@@ -13710,6 +13712,15 @@ pre.wp-block-verse {
     justify-content: space-between;
     padding: 0;
     margin: 0;
+    width: fit-content;
+    margin: auto;
+    gap: 50px;
+}
+
+@media screen and (max-width: 750px){
+    .m-bnrList--flex{
+        gap: 0;
+    }
 }
 
 .m-bnrList--flexCenter {
@@ -14437,6 +14448,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-btnOuter {
+        padding-left: 0;
         text-align:center
     }
 }
@@ -16562,7 +16574,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-kv--business {
-        background:url(/assets/img/business/top/business_kv--sp.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-position: center left
     }
@@ -16825,14 +16837,14 @@ pre.wp-block-verse {
 }
 
 .m-kv--arbeit {
-    background: url(/assets/img/recruit/arbeit/arbeit_kv.webp);
+    background: url(https://placehold.jp/1333x300.png);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--arbeit {
-        background:url(/assets/img/recruit/arbeit/arbeit_kv--sp.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-position: center left
     }
@@ -16978,14 +16990,14 @@ pre.wp-block-verse {
 }
 
 .m-kv--profile {
-    background: url(/assets/img/company/profile/profile_kv.webp);
+    background: url(https://placehold.jp/1366x300.png);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--profile {
-        background:url(/assets/img/company/profile/profile_kv--sp.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-position: center left
     }
@@ -17006,7 +17018,7 @@ pre.wp-block-verse {
 }
 
 .m-kv--message {
-    background: url(/assets/img/company/message/message_kv.webp);
+    background: url(https://placehold.jp/1366x300.png);
     background-size: cover;
     background-position: center left
 }
@@ -17019,49 +17031,49 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-kv--message {
-        background:url(/assets/img/company/message/message_kv--sp.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-position: center left
     }
 }
 
 .m-kv--mission {
-    background: url(/assets/img/company/mission/mission_kv.webp);
+    background: url(https://placehold.jp/1300x300.png);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--mission {
-        background:url(/assets/img/company/mission/mission_kv--sp.webp);
+        background:url(https://placehold.jp/320x170.png);
         background-size: cover;
         background-position: center left
     }
 }
 
 .m-kv--main {
-    background: url(/assets/img/business/main/main_kv.webp);
+    background: url(https://placehold.jp/1366x300.png);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--main {
-        background:url(/assets/img/business/main/main_kv--sp.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-position: center left
     }
 }
 
 .m-kv--group {
-    background: url(/assets/img/business/group/group_kv.webp);
+    background: url(https://placehold.jp/2732x600.png);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--group {
-        background:url(/assets/img/business/group/group_kv--sp.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-position: center left
     }
@@ -17190,7 +17202,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-kv__inner {
-        width:92vw;
+        width: fit-content;
         margin: 0 auto
     }
 }
@@ -21271,7 +21283,7 @@ pre.wp-block-verse {
 
 @media print,screen and (min-width: 751px) {
     .p-business__linksBg {
-        background:url(/assets/img/business/top/links_bg01.webp);
+        background:url(https://placehold.jp/750x400.png);
         background-size: cover;
         background-repeat: no-repeat
     }
@@ -21319,13 +21331,13 @@ pre.wp-block-verse {
     background-size: cover
 }
 
-.p-business__linksBgItem--05 {
-    background: url(/assets/img/business/top/links_bg05.webp);
+.p-business__linksBgItem {
+    background: url(https://placehold.jp/400x500.png);
     background-size: cover
 }
 
 .p-business__linksBgItem--06 {
-    background: url(/assets/img/business/top/links_bg06.webp);
+    background: url(https://placehold.jp/400x500.png);
     background-size: cover
 }
 
@@ -21347,8 +21359,8 @@ pre.wp-block-verse {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 1170px;
-    margin: 0 auto
+    width: fit-content;
+    margin: 20px auto
 }
 
 @media screen and (max-width: 750px) {
@@ -22029,7 +22041,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .p-business__groupBlockImg {
-        width:80vw;
+        width:100%;
         padding: 4vw
     }
 }
@@ -28513,6 +28525,7 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .p-group__list {
         display:block;
+        padding-left: 0;
         margin: 13.33333vw auto 0
     }
 }
@@ -28592,6 +28605,7 @@ pre.wp-block-verse {
 }
 
 .p-group__listItemBlock {
+    background-color: #fff;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28602,13 +28616,13 @@ pre.wp-block-verse {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 223px;
+    width: 100%;
     height: 140px
+    
 }
 
 @media screen and (max-width: 750px) {
     .p-group__listItemBlock {
-        width:60vw;
         height: 32.4vw
     }
 }
@@ -28623,15 +28637,20 @@ pre.wp-block-verse {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 223px;
-    height: 70px;
-    margin: 0 auto
+    width: 100%;
+    height: 120px;
+ 
+    /* margin: 0 auto */
+}
+
+.p-group__listLogo img{
+    max-width: 85%;
+    max-height: 100%;
 }
 
 @media screen and (max-width: 750px) {
     .p-group__listLogo {
         width:100%;
-        height: 16.66667vw
     }
 }
 
@@ -31130,6 +31149,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .p-profile__list {
+        padding-left: 0;
         width:84vw;
         margin: 5.33333vw auto 13.33333vw
     }
@@ -31176,6 +31196,7 @@ pre.wp-block-verse {
     }
 
     .p-profile__listItem.en .p-profile__listTxt {
+
         width: 760px
     }
 }
@@ -31195,12 +31216,14 @@ pre.wp-block-verse {
 }
 
 .p-profile__listTxt {
+    margin: auto;
     width: 770px;
     font-size: 16px
 }
 
 @media screen and (max-width: 750px) {
     .p-profile__listTxt {
+        text-align: left;
         width:64vw;
         font-size: 14px;
         font-size: 3.73333vw
@@ -31510,6 +31533,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .u-fs--ls {
+        padding-left: 0;
         font-size:15px;
         font-size: 4vw
     }
@@ -31631,4 +31655,21 @@ pre.wp-block-verse {
     vertical-align: sub
 }
 
+.p-arbeitMerit__list{
+    padding-left: 0;
+}
+
+.m-bnrList--mt{
+    gap: 0;
+}
+
+
+
 /*# sourceMappingURL=index.css.map */
+
+
+@media screen and (max-width: 750px){
+    .p-profile__listChild{
+        padding-left: 0;
+    }
+}
