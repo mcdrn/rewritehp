@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/specimen.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>REWRITE HOLDINGS</title>
 </head>
@@ -16,27 +19,30 @@
                         <a class=header-logo href="index.html"><img src="img/logo.jpg" alt="" height="50px"></a>
                         <p class="logo-text">株式会社リライトホールディングス</p> 
                     </div>
+                    <span class="material-icons" id="open-btn">menu</span>
+                    <span class="material-icons" id="close-btn"
+                      >close</span
+                    >
                 </div>
 
 
                  <!-- ハンバーガーメニューのアイコン -->
-    <div class="hamburger-menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
 
                 <nav class="header-under">
                     <div class="index">
-                        <span class="close-btn">&times;</span>
                         <ul>
                             <li>
-                                <a class="index-text" href="company.html">企業情報</a>
+                                <a class="index-text" href="index.html">トップ Top</a>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <a class="index-text"  href="business.html">事業内容</a>
+                                <a class="index-text" href="company.html">企業情報 Cmpany Info</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a class="index-text"  href="business.html">事業内容 Business Description</a>
                             </li>
                         </ul>
                         <ul>
@@ -46,7 +52,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a class="index-text"  href="inquiry.html">お問い合わせ</a>
+                                <a class="index-text"  href="https://rewrite-hd.com/page3.html">お問い合わせ</a>
                             </li>
                         </ul>
                     </div>
@@ -141,8 +147,12 @@
                         <h2>TOPICS</h2>
                         <p>最新情報</p>
                     </div>
-            
+                    
                     <div class="topics-container">
+                        <div class="m-newsList__itemTtl">
+                            <span class="m-newsList__itemNew">NEW</span>									<span class="m-newsList__itemDay">2025.03.24</span>
+                            <span class="m-newsList__itemTag pink">New Announce</span>
+                        </div>
                         <div class="topic">
                             <a class="topic-tab" href="#">
                                 <img src="https://placehold.jp/100x100.png" alt="ニュース1">
@@ -151,6 +161,10 @@
                                 </div>
                             </a>
                         </div>
+                        <div class="m-newsList__itemTtl">
+                            <span class="m-newsList__itemNew">NEW</span>									<span class="m-newsList__itemDay">2025.03.24</span>
+                            <span class="m-newsList__itemTag pink">New Announce</span>
+                        </div>
                         <div class="topic">
                             <a class="topic-tab" href="#">
                                 <img src="https://placehold.jp/100x100.png" alt="ニュース2">
@@ -158,6 +172,10 @@
                                     <h3>テキストテキストテキストテキストテキスト</h3>
                                 </div>
                             </a>
+                        </div>
+                        <div class="m-newsList__itemTtl">
+                            <span class="m-newsList__itemNew">NEW</span>									<span class="m-newsList__itemDay">2025.03.24</span>
+                            <span class="m-newsList__itemTag pink">New Announce</span>
                         </div>
                         <div class="topic">
                             <a class="topic-tab" href="#">
@@ -284,7 +302,7 @@
         </footer>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="js/hamberger_btn.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

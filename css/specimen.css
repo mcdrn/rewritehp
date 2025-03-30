@@ -11069,7 +11069,7 @@ pre.wp-block-verse {
     width: 0;
     height: 3px;
     margin: 0 auto;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -11139,7 +11139,7 @@ pre.wp-block-verse {
 }
 
 .l-pc__linksItem--searchWindow:hover span:before {
-    background: #ff6300;
+    background: #000;
     -webkit-transform: scale(1.55);
     -ms-transform: scale(1.55);
     transform: scale(1.55)
@@ -11310,7 +11310,7 @@ pre.wp-block-verse {
 }
 
 .l-pc__linksItem--searchWindow .gsc-search-button-v2:hover:before {
-    background: #ff6300;
+    background: #000;
     -webkit-transform: scale(1.55);
     -ms-transform: scale(1.55);
     transform: scale(1.55)
@@ -11332,7 +11332,7 @@ pre.wp-block-verse {
     position: relative;
     width: 8vw;
     height: 8vw;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%;
     cursor: pointer
 }
@@ -11414,7 +11414,7 @@ pre.wp-block-verse {
     width: 0;
     height: 3px;
     margin: 0 auto;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -11438,7 +11438,7 @@ pre.wp-block-verse {
     width: 0;
     height: 3px;
     margin: 0 auto;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -11505,7 +11505,7 @@ pre.wp-block-verse {
     content: '';
     width: 100%;
     height: 100%;
-    background: #ff6300;
+    background: #000;
     border-radius: 20px;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -11635,7 +11635,7 @@ pre.wp-block-verse {
 }
 
 .l-pc__menuTtl-en {
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif
@@ -11719,7 +11719,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -11789,7 +11789,7 @@ pre.wp-block-verse {
     position: relative;
     width: 8vw;
     height: 8vw;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%;
     cursor: pointer
 }
@@ -11951,7 +11951,7 @@ pre.wp-block-verse {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ff6300
+    background: #000
 }
 
 .l-sp__navListItem--searchBtn span {
@@ -12373,14 +12373,14 @@ pre.wp-block-verse {
 }
 
 .l-section {
-    padding-bottom: 100px;
-    padding-top: 100px
+    /* padding-bottom: 100px;
+    padding-top: 100px */
 }
 
 @media screen and (max-width: 750px) {
     .l-section {
-        padding-bottom:calc(120/750*100vw);
-        padding-top: calc(120/750*100vw)
+        /* padding-bottom:calc(120/750*100vw);
+        padding-top: calc(120/750*100vw) */
     }
 }
 
@@ -12487,7 +12487,7 @@ pre.wp-block-verse {
 }
 
 .m-act__item--color .m-act__num {
-    color: #ff6300
+    color: #000
 }
 
 .m-act__item--grid {
@@ -12576,11 +12576,11 @@ pre.wp-block-verse {
 }
 
 .m-act__text--mark span:first-child {
-    color: #ff6300
+    color: #000
 }
 
 .m-act__text--color {
-    color: #ff6300;
+    color: #000;
     font-weight: 700
 }
 
@@ -12718,7 +12718,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -12864,7 +12864,7 @@ pre.wp-block-verse {
 
 .m-anchor__listItem.is-current:before {
     width: 100%;
-    background: #ff6300
+    background: #000
 }
 
 .m-announceList {
@@ -12941,7 +12941,7 @@ pre.wp-block-verse {
 
 .m-announceList__day span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -12960,9 +12960,9 @@ pre.wp-block-verse {
     display: inline;
     font-size: 18px;
     margin-top: 5px;
-    background-image: -webkit-gradient(linear,left top,right top,from(#ff6300),to(#ff6300));
-    background-image: -o-linear-gradient(left,#ff6300,#ff6300);
-    background-image: linear-gradient(90deg,#ff6300,#ff6300);
+    background-image: -webkit-gradient(linear,left top,right top,from(#000),to(#000));
+    background-image: -o-linear-gradient(left,#000,#000);
+    background-image: linear-gradient(90deg,#000,#000);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 0 1px;
@@ -13040,7 +13040,7 @@ pre.wp-block-verse {
     width: 0;
     height: 100%;
     margin: 0 auto;
-    background: #ff6300;
+    background: #000;
     border-radius: 50px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -13053,7 +13053,7 @@ pre.wp-block-verse {
 }
 
 .m-arrowBtn.orange:before {
-    background: #ff6300
+    background: #000
 }
 
 .m-arrowBtn.orange:after {
@@ -13688,7 +13688,7 @@ pre.wp-block-verse {
     bottom: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -14081,7 +14081,7 @@ pre.wp-block-verse {
     bottom: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -14306,7 +14306,7 @@ pre.wp-block-verse {
     content: '＞';
     top: 0;
     left: 0;
-    color: #ff6300
+    color: #000
 }
 
 @media screen and (max-width: 750px) {
@@ -14414,7 +14414,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -14509,8 +14509,8 @@ pre.wp-block-verse {
     top: 50%;
     width: 60px;
     height: 60px;
-    background: #ff6300;
-    border: 1px solid #ff6300;
+    background: #000;
+    border: 1px solid #000;
     border-radius: 50%;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
@@ -14605,8 +14605,8 @@ pre.wp-block-verse {
 
 @media print,screen and (min-width: 751px) {
     .m-circleBtn-slider-hover:hover .m-circleBtn-slider {
-        background:#ff6300;
-        border: 1px solid #ff6300
+        background:#000;
+        border: 1px solid #000
     }
 
     .m-circleBtn-slider-hover:hover .m-circleBtn-slider:before {
@@ -14766,7 +14766,7 @@ pre.wp-block-verse {
     width: 0;
     height: 0;
     border-radius: 50%;
-    background: #ff6300;
+    background: #000;
     opacity: 0;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -14825,7 +14825,7 @@ pre.wp-block-verse {
     }
 
     .m-circleBtn-element:hover .m-circleBtn {
-        border: 1px solid #ff6300
+        border: 1px solid #000
     }
 
     .m-circleBtn-element:hover .m-circleBtn:before {
@@ -15225,7 +15225,7 @@ pre.wp-block-verse {
 }
 
 .m-faqList__answerIcon {
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     text-align: right;
@@ -15262,7 +15262,7 @@ pre.wp-block-verse {
 }
 
 .m-faqList__answerTxt a {
-    color: #ff6300;
+    color: #000;
     font-weight: 500;
     text-decoration: underline
 }
@@ -15313,7 +15313,7 @@ pre.wp-block-verse {
 
 .m-faqList__toggleBtn--parent {
     top: 50%;
-    background: #ff6300;
+    background: #000;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%)
@@ -15826,7 +15826,7 @@ pre.wp-block-verse {
 }
 
 .m-group__txt span {
-    color: #ff6300
+    color: #000
 }
 
 .m-group__img {
@@ -15899,7 +15899,7 @@ pre.wp-block-verse {
 }
 
 .m-h2ttl--en {
-    color: #ff6300;
+    color: #000;
     font-size: 15px;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif
 }
@@ -15956,7 +15956,7 @@ pre.wp-block-verse {
 }
 
 .m-h2ttl.en {
-    color: #ff6300;
+    color: #000;
     font-size: 36px;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif
 }
@@ -16041,7 +16041,7 @@ pre.wp-block-verse {
 }
 
 .m-h3ttl02--en {
-    color: #ff6300;
+    color: #000;
     font-size: 15px;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif
 }
@@ -16079,7 +16079,7 @@ pre.wp-block-verse {
 }
 
 .m-h4ttl--border:before,.m-post .h4:before,.m-post h4:before {
-    border-top: 4px solid #ff6300;
+    border-top: 4px solid #000;
     content: "";
     display: inline-block;
     left: 0;
@@ -17231,7 +17231,7 @@ pre.wp-block-verse {
 }
 
 .m-kv__ttl--en {
-    color: #ff6300;
+    color: #000;
     font-size: 15px;
     margin-top: 10px
 }
@@ -17300,7 +17300,7 @@ pre.wp-block-verse {
 }
 
 .m-lead__ttl {
-    color: #ff6300;
+    color: #000;
     font-size: 60px;
     font-weight: 700;
     line-height: 1;
@@ -17326,8 +17326,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-lead__txt {
-        font-size:20px;
-        font-size: 5.33333vw
+        font-size:35px;
     }
 }
 
@@ -17368,7 +17367,7 @@ pre.wp-block-verse {
 
 @media print,screen and (min-width: 751px) {
     .m-lead__txt--sizeL {
-        font-size:30px
+        font-size:45px
     }
 }
 
@@ -17458,7 +17457,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -17525,7 +17524,7 @@ pre.wp-block-verse {
 
 .m-list--circle>.m-list__item:before {
     content: "● ";
-    color: #ff6300
+    color: #000
 }
 
 .m-list--margin>.m-list__item:not(:first-child) {
@@ -17558,7 +17557,7 @@ pre.wp-block-verse {
 }
 
 .m-listType01__item span:first-child {
-    color: #ff6300
+    color: #000
 }
 
 .m-map iframe {
@@ -17654,7 +17653,7 @@ pre.wp-block-verse {
     width: 0;
     height: 100%;
     margin: 0 auto;
-    background: #ff6300;
+    background: #000;
     border-radius: 50px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -17737,7 +17736,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -17785,7 +17784,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-newsList__itemTtl {
-        position:absolute;
+        position: static;
         top: 8vw;
         left: 0
     }
@@ -17804,7 +17803,7 @@ pre.wp-block-verse {
 }
 
 .m-newsList__itemNew {
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -17939,8 +17938,8 @@ pre.wp-block-verse {
 }
 
 .m-newsSelect:before {
-    border-bottom: 1px solid #ff6300;
-    border-right: 1px solid #ff6300;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
     content: "";
     display: inline-block;
     height: 11px;
@@ -18070,7 +18069,7 @@ pre.wp-block-verse {
 .is-current .m-newsTab__btn:after {
     content: "";
     display: block;
-    border-bottom: 4px solid #ff6300;
+    border-bottom: 4px solid #000;
     bottom: -1px;
     left: 0;
     position: absolute;
@@ -18086,7 +18085,7 @@ pre.wp-block-verse {
 
 @media print,screen and (min-width: 751px) {
     .m-newsTab__btn:hover {
-        color:#ff6300
+        color:#000
     }
 }
 
@@ -18162,7 +18161,7 @@ pre.wp-block-verse {
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-    background: #ff6300
+    background: #000
 }
 
 .swiper-container-horizontal>.swiper-pagination-progressbar,.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
@@ -18346,7 +18345,7 @@ pre.wp-block-verse {
 
 .m-stock__link a {
     position: relative;
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     line-height: 1;
     padding-right: 20px
@@ -18526,21 +18525,21 @@ pre.wp-block-verse {
 }
 
 .m-sustainability__item--orange:before {
-    border-color: #ff6300
+    border-color: #000
 }
 
 .m-sustainability__item--orange:after {
     content: 'G';
-    color: #ff6300
+    color: #000
 }
 
 .m-sustainability__item--orange:hover:before {
-    border-color: #ff6300
+    border-color: #000
 }
 
 .m-sustainability__item--orange:hover:after {
     color: #fff;
-    background: #ff6300
+    background: #000
 }
 
 .m-sustainability__item .m-circleBtn {
@@ -18742,21 +18741,21 @@ pre.wp-block-verse {
 }
 
 .m-sustainabilityEffortList__item--orange:before {
-    border-color: #ff6300
+    border-color: #000
 }
 
 .m-sustainabilityEffortList__item--orange:after {
     content: 'G';
-    color: #ff6300
+    color: #000
 }
 
 .m-sustainabilityEffortList__item--orange:hover:before {
-    border-color: #ff6300
+    border-color: #000
 }
 
 .m-sustainabilityEffortList__item--orange:hover:after {
     color: #fff;
-    background: #ff6300
+    background: #000
 }
 
 .m-sustainabilityEffortList__item .m-circleBtn {
@@ -19006,7 +19005,7 @@ pre.wp-block-verse {
 .m-txt--link {
     font-size: 24px;
     font-weight: 700;
-    color: #ff6300
+    color: #000
 }
 
 @media screen and (max-width: 750px) {
@@ -19167,7 +19166,7 @@ pre.wp-block-verse {
 }
 
 .m-workSchedule__time:before {
-    background-color: #ff6300;
+    background-color: #000;
     border-radius: 100vw;
     content: "";
     display: block;
@@ -19338,7 +19337,7 @@ pre.wp-block-verse {
     content: '';
     width: 100%;
     height: 100%;
-    background: #ff6300;
+    background: #000;
     border-radius: 10px 0 0 10px;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -19521,7 +19520,7 @@ pre.wp-block-verse {
 .p-top__search {
     width: 1170px;
     margin: 60px auto 0;
-    background: #ff6300;
+    background: #000;
     border-radius: 20px;
     overflow: hidden
 }
@@ -19808,7 +19807,7 @@ pre.wp-block-verse {
 
 .p-top__announceTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-size: 700;
     line-height: 1
@@ -19892,7 +19891,7 @@ pre.wp-block-verse {
 
 .p-top__announceListDay span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -19911,9 +19910,9 @@ pre.wp-block-verse {
     display: inline;
     font-size: 18px;
     margin-top: 5px;
-    background-image: -webkit-gradient(linear,left top,right top,from(#ff6300),to(#ff6300));
-    background-image: -o-linear-gradient(left,#ff6300,#ff6300);
-    background-image: linear-gradient(90deg,#ff6300,#ff6300);
+    background-image: -webkit-gradient(linear,left top,right top,from(#000),to(#000));
+    background-image: -o-linear-gradient(left,#000,#000);
+    background-image: linear-gradient(90deg,#000,#000);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 0 1px;
@@ -20004,7 +20003,7 @@ pre.wp-block-verse {
 
 .p-top__newsTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 40px;
     font-weight: 700;
     line-height: 1;
@@ -20062,7 +20061,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -20170,7 +20169,7 @@ pre.wp-block-verse {
 
 .p-top__newsListIcon {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
@@ -20419,7 +20418,7 @@ pre.wp-block-verse {
 
 .p-top__groupTtl--ja {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
@@ -20497,7 +20496,7 @@ pre.wp-block-verse {
 
 .p-top__infoTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-size: 700;
     line-height: 1
@@ -20706,7 +20705,7 @@ pre.wp-block-verse {
 
 .p-top__numbersTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-size: 700;
     line-height: 1
@@ -20844,7 +20843,7 @@ pre.wp-block-verse {
 }
 
 .p-top__numbersBlockCountNum {
-    color: #ff6300;
+    color: #000;
     font-size: 66px;
     font-weight: 700;
     text-align: center;
@@ -21054,7 +21053,7 @@ pre.wp-block-verse {
 }
 
 .p-brand__leadTtl {
-    color: #ff6300;
+    color: #000;
     font-size: 60px;
     font-weight: 700;
     line-height: 1;
@@ -21378,7 +21377,7 @@ pre.wp-block-verse {
 }
 
 .p-business__linksTtl--en {
-    color: #ff6300;
+    color: #000;
     font-size: 70px;
     font-weight: 700;
     line-height: 1.1;
@@ -21413,7 +21412,7 @@ pre.wp-block-verse {
 }
 
 .p-business__linksTtl.en {
-    color: #ff6300;
+    color: #000;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -21594,7 +21593,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -21738,7 +21737,7 @@ pre.wp-block-verse {
 
 .p-business__numbersTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-size: 700;
     line-height: 1
@@ -21870,7 +21869,7 @@ pre.wp-block-verse {
 }
 
 .p-business__numbersBlockCountNum {
-    color: #ff6300;
+    color: #000;
     font-size: 66px;
     font-weight: 700;
     text-align: center;
@@ -21970,7 +21969,7 @@ pre.wp-block-verse {
 
 .p-business__groupTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-size: 700;
     line-height: 1
@@ -21999,7 +21998,7 @@ pre.wp-block-verse {
 
 .p-business__groupBlockTtl {
     padding: 20px 0;
-    background: #ff6300
+    background: #000
 }
 
 @media screen and (max-width: 750px) {
@@ -22413,7 +22412,7 @@ pre.wp-block-verse {
     right: 0;
     width: 26px;
     height: 26px;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%
 }
 
@@ -22493,7 +22492,7 @@ pre.wp-block-verse {
 .p-irFaq__listAnswerNum {
     display: block;
     width: 40px;
-    color: #ff6300;
+    color: #000;
     font-weight: 700;
     text-align: right;
     margin-right: 30px
@@ -22522,7 +22521,7 @@ pre.wp-block-verse {
 }
 
 .p-irFaq__listAnswerTxt a {
-    color: #ff6300;
+    color: #000;
     font-weight: 500;
     text-decoration: underline
 }
@@ -23017,7 +23016,7 @@ pre.wp-block-verse {
 
 .p-glance__stockLink a {
     position: relative;
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     line-height: 1;
     padding-right: 20px
@@ -23211,7 +23210,7 @@ pre.wp-block-verse {
 
 .p-ir__announceTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-size: 700;
     line-height: 1
@@ -23295,7 +23294,7 @@ pre.wp-block-verse {
 
 .p-ir__announceListDay span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     line-height: 1;
@@ -23314,9 +23313,9 @@ pre.wp-block-verse {
     display: inline;
     font-size: 18px;
     margin-top: 5px;
-    background-image: -webkit-gradient(linear,left top,right top,from(#ff6300),to(#ff6300));
-    background-image: -o-linear-gradient(left,#ff6300,#ff6300);
-    background-image: linear-gradient(90deg,#ff6300,#ff6300);
+    background-image: -webkit-gradient(linear,left top,right top,from(#000),to(#000));
+    background-image: -o-linear-gradient(left,#000,#000);
+    background-image: linear-gradient(90deg,#000,#000);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 0 1px;
@@ -23405,7 +23404,7 @@ pre.wp-block-verse {
 
 .p-ir__newsTtl span {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 40px;
     font-weight: 700;
     line-height: 1;
@@ -23452,7 +23451,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -23553,7 +23552,7 @@ pre.wp-block-verse {
 
 .p-ir__newsListIcon {
     display: block;
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
@@ -23801,7 +23800,7 @@ pre.wp-block-verse {
 }
 
 .p-ir__calendarBlockDetail.orange {
-    background: #ff6300
+    background: #000
 }
 
 .p-ir__calendarBlockDetail.blue {
@@ -24223,7 +24222,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder__planBlockTtl.orange {
-    color: #ff6300
+    color: #000
 }
 
 .p-shareholder__planBlockTtl.mt {
@@ -24250,7 +24249,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder__planBlockTxt span {
-    color: #ff6300
+    color: #000
 }
 
 .p-shareholder__planBlockImg {
@@ -24312,9 +24311,9 @@ pre.wp-block-verse {
     font-weight: 700;
     text-align: center;
     line-height: 1.3;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%;
-    border: 1px solid #ff6300;
+    border: 1px solid #000;
     z-index: 1
 }
 
@@ -24414,7 +24413,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder table td.orange,.p-shareholder table th.orange {
-    color: #ff6300
+    color: #000
 }
 
 .p-shareholder table td.bg-gray,.p-shareholder table th.bg-gray {
@@ -24588,7 +24587,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder__planAreaTxt span {
-    color: #ff6300
+    color: #000
 }
 
 .p-shareholder__planAreaInner {
@@ -24650,14 +24649,14 @@ pre.wp-block-verse {
     justify-content: center;
     width: 80px;
     height: 80px;
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
     line-height: 1.3;
     background: #fff;
     border-radius: 50%;
-    border: 1px solid #ff6300
+    border: 1px solid #000
 }
 
 @media print,screen and (min-width: 751px) {
@@ -24712,7 +24711,7 @@ pre.wp-block-verse {
     width: 26px;
     height: 26px;
     margin-left: 10px;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%
 }
 
@@ -24809,7 +24808,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder__planExampleTxt span {
-    color: #ff6300
+    color: #000
 }
 
 .p-shareholder__planExampleTable {
@@ -24919,7 +24918,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder__planDetailListItem span {
-    color: #ff6300
+    color: #000
 }
 
 .p-shareholder__planDetailFaq {
@@ -24999,7 +24998,7 @@ pre.wp-block-verse {
     right: 0;
     width: 26px;
     height: 26px;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%
 }
 
@@ -25079,7 +25078,7 @@ pre.wp-block-verse {
 .p-shareholder__planDetailFaqAnswerNum {
     display: block;
     width: 40px;
-    color: #ff6300;
+    color: #000;
     font-weight: 700;
     text-align: right;
     margin-right: 30px
@@ -25108,7 +25107,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder__planDetailFaqAnswerTxt a {
-    color: #ff6300;
+    color: #000;
     font-weight: 500;
     text-decoration: underline
 }
@@ -25286,7 +25285,7 @@ pre.wp-block-verse {
 }
 
 .p-shareholder .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-    background: #ff6300
+    background: #000
 }
 
 .p-shareholder .swiper-container-horizontal>.swiper-pagination-progressbar,.p-shareholder .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
@@ -25480,7 +25479,7 @@ pre.wp-block-verse {
 }
 
 .p-outlet__leadTtl {
-    color: #ff6300;
+    color: #000;
     font-size: 36px;
     font-weight: 700;
     text-align: center
@@ -25921,7 +25920,7 @@ pre.wp-block-verse {
 }
 
 .p-aJobBnr__ttlSub {
-    color: #ff6300;
+    color: #000;
     font-size: 15px;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
     display: block
@@ -26084,7 +26083,7 @@ pre.wp-block-verse {
 }
 
 .p-arbeitType__ttlSub {
-    color: #ff6300;
+    color: #000;
     font-size: 15px;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
     display: block
@@ -26156,7 +26155,7 @@ pre.wp-block-verse {
 }
 
 .p-recruit__leadTtl span {
-    color: #ff6300;
+    color: #000;
     font-size: 45px;
     font-weight: 700
 }
@@ -26327,7 +26326,7 @@ pre.wp-block-verse {
 }
 
 .p-recruit__checkTtl {
-    color: #ff6300;
+    color: #000;
     font-size: 24px;
     font-weight: 700
 }
@@ -26417,7 +26416,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -26615,7 +26614,7 @@ pre.wp-block-verse {
     width: 26px;
     height: 26px;
     margin: 0;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -26836,7 +26835,7 @@ pre.wp-block-verse {
 }
 
 .p-recruit__faqChildAnswerIcon {
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     vertical-align: top;
@@ -26906,7 +26905,7 @@ pre.wp-block-verse {
 }
 
 .p-recruit__leadTtl span {
-    color: #ff6300;
+    color: #000;
     font-size: 45px;
     font-weight: 700
 }
@@ -27076,7 +27075,7 @@ pre.wp-block-verse {
 }
 
 .p-recruit__checkTtl {
-    color: #ff6300;
+    color: #000;
     font-size: 24px;
     font-weight: 700
 }
@@ -27166,7 +27165,7 @@ pre.wp-block-verse {
     left: 0;
     width: 0;
     height: 1px;
-    background: #ff6300;
+    background: #000;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -27388,7 +27387,7 @@ pre.wp-block-verse {
     width: 26px;
     height: 26px;
     margin: 0;
-    background: #ff6300;
+    background: #000;
     border-radius: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -27609,7 +27608,7 @@ pre.wp-block-verse {
 }
 
 .p-recruit__faqChildAnswerIcon {
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     vertical-align: top;
@@ -27687,7 +27686,7 @@ pre.wp-block-verse {
 }
 
 .p-sitemapList__item {
-    border-bottom: 1px solid #ff6300;
+    border-bottom: 1px solid #000;
     font-size: 24px;
     font-size: 1.5rem;
     font-weight: 700;
@@ -27723,7 +27722,7 @@ pre.wp-block-verse {
 
 .p-sitemapList__link::before {
     border-bottom: 7px solid transparent;
-    border-left: 13px solid #ff6300;
+    border-left: 13px solid #000;
     border-top: 7px solid transparent;
     content: "";
     display: inline-block;
@@ -27739,7 +27738,7 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .p-sitemapList__link::before {
         border-bottom:calc(12/750*100vw) solid transparent;
-        border-left: calc(22/750*100vw) solid #ff6300;
+        border-left: calc(22/750*100vw) solid #000;
         border-top: calc(12/750*100vw) solid transparent;
         left: calc(-40/750*100vw)
     }
@@ -27928,7 +27927,7 @@ pre.wp-block-verse {
 }
 
 .p-governance__leadLink a {
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     text-decoration: underline
@@ -27975,7 +27974,7 @@ pre.wp-block-verse {
 }
 
 .p-sustainability__leadTtl {
-    color: #ff6300;
+    color: #000;
     font-size: 36px;
     font-weight: 700;
     text-align: center
@@ -28062,7 +28061,7 @@ pre.wp-block-verse {
 }
 
 .p-sustainability__newsTtl {
-    color: #ff6300;
+    color: #000;
     font-size: 18px;
     font-weight: 700;
     line-height: 1
@@ -28409,7 +28408,7 @@ pre.wp-block-verse {
 }
 
 .p-data__blockNumber span {
-    color: #ff6300;
+    color: #000;
     font-size: 70px;
     font-weight: 700;
     line-height: 1;
@@ -28623,7 +28622,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .p-group__listItemBlock {
-        height: 32.4vw
+        /* height: 32.4vw */
     }
 }
 
@@ -28655,9 +28654,9 @@ pre.wp-block-verse {
 }
 
 .p-group__listImg {
-    width: 140px;
+    /* width: 140px; */
     border-radius: 0 20px 20px 0;
-    overflow: hidden
+    /* overflow: hidden */
 }
 
 @media screen and (max-width: 750px) {
@@ -28667,6 +28666,8 @@ pre.wp-block-verse {
 }
 
 .p-group__listImg img {
+
+    max-height: 140px;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -29163,7 +29164,7 @@ pre.wp-block-verse {
 }
 
 .p-groupDetails__newsListDetailNew {
-    color: #ff6300;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif
@@ -29632,7 +29633,7 @@ pre.wp-block-verse {
 }
 
 .p-groupDetails__companyMoreListItem:hover {
-    color: #ff6300;
+    color: #000;
     opacity: .8
 }
 
@@ -29740,7 +29741,7 @@ pre.wp-block-verse {
 }
 
 .p-groupDetails__companyCmListItem a:hover {
-    color: #ff6300;
+    color: #000;
     opacity: .8
 }
 
@@ -29833,7 +29834,7 @@ pre.wp-block-verse {
 }
 
 .p-groupDetails__linksPrevBtn:hover .p-groupDetails__linksPrevTxt {
-    color: #ff6300
+    color: #000
 }
 
 .p-groupDetails__linksNextBtn {
@@ -29852,7 +29853,7 @@ pre.wp-block-verse {
 }
 
 .p-groupDetails__linksNextBtn:hover .p-groupDetails__linksNextTxt {
-    color: #ff6300
+    color: #000
 }
 
 .p-groupDetails__linksNextTxt,.p-groupDetails__linksPrevTxt {
@@ -29937,7 +29938,7 @@ pre.wp-block-verse {
 }
 
 .p-groupDetails .swiper-button-next:hover,.p-groupDetails .swiper-button-prev:hover {
-    color: #ff6300
+    color: #000
 }
 
 .p-groupDetails .swiper-button-prev .m-circleBtn {
@@ -29964,7 +29965,7 @@ pre.wp-block-verse {
 }
 
 .p-main__lead {
-    color: #ff6300;
+    color: #000;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -30595,7 +30596,7 @@ pre.wp-block-verse {
 }
 
 .p-history__h2ttl span {
-    color: #ff6300;
+    color: #000;
     font-size: 30px;
     font-family: Montserrat,"Noto Sans JP","メイリオ",Meiryo,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif
 }
@@ -30651,7 +30652,7 @@ pre.wp-block-verse {
 }
 
 .p-history__table td .color_orange,.p-history__table th .color_orange {
-    color: #ff6300;
+    color: #000;
     font-weight: 500
 }
 
@@ -30856,7 +30857,7 @@ pre.wp-block-verse {
     text-align: center;
     background: #fff;
     border-radius: 50%;
-    border: 1px solid #ff6300
+    border: 1px solid #000
 }
 
 @media screen and (max-width: 750px) {
@@ -31013,7 +31014,7 @@ pre.wp-block-verse {
 }
 
 .p-office__table td.bg-orange,.p-office__table th.bg-orange {
-    background: #ff6300
+    background: #000
 }
 
 .p-office__table td.bg-gray,.p-office__table th.bg-gray {
@@ -31580,7 +31581,7 @@ pre.wp-block-verse {
 }
 
 .u-fc--color {
-    color: #ff6300
+    color: #000
 }
 
 .u-fc--light {
@@ -31663,6 +31664,9 @@ pre.wp-block-verse {
     gap: 0;
 }
 
+.m-bnrList-company{
+    gap: 0;
+}
 
 
 /*# sourceMappingURL=index.css.map */
