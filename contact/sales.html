@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>経営理念</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../css/specimen.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+      rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <title>営業に関するお問い合わせ</title>
 </head>
 <body>
     <header>
@@ -95,67 +96,85 @@
             </nav>
         </div>
     </header>
-    <main class="l-main p-group" id="group">
+    <main>
+        <form class="contact-form">
 
-        <!-- kv -->
-        <div class="m-kv m-kv--group">
-            <div class="m-kv__inner">
-                <h1 class="m-kv__ttl">
-                    <span class="m-kv__ttl--ja">提携先企業一覧</span>
-                    <span class="m-kv__ttl--en">Our Partnar</span>
-                </h1>
+            <h2 class="contact-saiyou">営業に関するお問い合わせ</h2>
+        
+            <div class="form-block">
+              <label>お名前 <span class="required">必須</span></label>
+              <div class="name-fields">
+                <input type="text" placeholder="姓" required>
+                <input type="text" placeholder="名" required>
+              </div>
             </div>
-        </div>
-        <!-- /kv -->
-    
-        <!-- breadcrumb -->
-        <div class="m-breadcrumb">
-            <ul class="m-breadcrumb__list">
-                <li class="m-breadcrumb__listItem">
-                    <a href="/">トップ</a>
-                </li>
-                <li class="m-breadcrumb__listItem">
-                    <a href="/business/">企業情報</a>
-                </li>
-                <li class="m-breadcrumb__listItem">
-                    <a href="/business/group/">提携先企業一覧</a>
-                </li>
-            </ul>
-        </div>
-        <div class="l-block">
-            <div class="l-contents">
-                <div class="l-section">
-                    <p class="p-group__lead">リライトホールディングスグループの<br class="u-sp">提携先企業をご紹介します。
-                        <!-- <br class="u-sp">仲間たちをご紹介します。 -->
-                    </p>
-        <!-- /breadcrumb -->
-    
-        <div class="l-block">
-            <div class="l-contents">
-                <div class="l-section">
+        
+            <div class="form-block">
+              <label>フリガナ <span class="required">必須</span></label>
+              <div class="name-fields">
+                <input type="text" placeholder="セイ" required>
+                <input type="text" placeholder="メイ" required>
+              </div>
+            </div>
+        
+            <div class="form-block">
+              <label>メールアドレス <span class="required">必須</span></label>
+              <input type="email" required>
+              <p class="note">▼確認のため、再度メールアドレスの入力をお願いします</p>
+              <input type="email" required>
+            </div>
+        
+            <div class="form-block phone-number">
+              <label>電話番号</label>
+              <input type="tel">
+            </div>
+        
+            <div class="form-block">
+              <label>性別</label>
+              <select class="choice">
+                <option value="">選択してください</option>
+                <option value="male">男性</option>
+                <option value="female">女性</option>
+                <option value="other">その他</option>
+              </select>
+            </div>
+        
+            <div class="form-block">
+              <label>年齢</label>
+              <select class="choice">
+                <option value="">選択してください</option>
+                <option value="10">10代</option>
+                <option value="20">20代</option>
+                <option value="30">30代</option>
+                <option value="40">40代</option>
+                <option value="50">50代</option>
+                <option value="60">60代以上</option>
+              </select>
+            </div>
+        
+            <div class="form-block">
+              <label>ご住所</label>
+              <div class="postal-code">
+                <span>〒</span>
+                <input type="text" class="number" placeholder="000-0000">
+                <button type="button">住所検索</button>
+              </div>
+              <input type="text" class="prefectures" placeholder="都道府県">
+              <input type="text" placeholder="市区町村・番地">
+              <input type="text" placeholder="建物名・部屋番号">
+            </div>
+
+            <div class="form-block">
+                <label>お問い合わせ内容 <span class="required">必須</span></label>
+                <textarea rows="6" placeholder="お問い合わせ内容を入力してください" required></textarea>
+              </div>
               
-                    <ul class="p-group__list">
-                        <li class="p-group__listItem">
-<a class="m-circleBtn-element" href="http://ai-voyage.net/">
-<div class="p-group__listItemBlock">
-<div class="p-group__listLogo p-group__listLogo--01">
-<img loading="lazy" decoding="async" src="../img/company/aivoyage.png" alt="">								</div>
-<div class="m-circleBtn small arrow-black"><span></span></div>
-</div>
-</a>
-<div class="group-name">
-<p>
-アイボヤージ
-</p>
-</div>
-</li>
-</ul>
-
-                </div>
-            </div>
-        </div>
-    
+        
+            <button type="submit">送信する</button>
+        
+          </form>
     </main>
+
     <footer>
         <div class="footer-upper">
         <ul class="footer-index">
@@ -220,8 +239,8 @@
             <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
         </div>
     </footer>
-      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-      <script src="../js/main.js"></script>
-      <script src="../js/script.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/script.js"></script>
 </html>

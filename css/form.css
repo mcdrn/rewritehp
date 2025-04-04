@@ -1,0 +1,98 @@
+@charset "utf=8";
+
+body {
+    font-family: sans-serif;
+    background: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: 90px auto;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .form-block {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .required {
+    color: red;
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+  
+  .name-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+   */
+  .postal-code {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .postal-code span {
+    font-size: 1.2em;
+  }
+  
+  .note {
+    font-size: 0.85em;
+    color: green;
+    margin-top: 5px;
+  }
+  .contact-saiyou{
+    border-left: solid 8px #000;
+    font-size: 21px;
+    padding: 0 5px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+
+  .choice{
+    height: 50px;
+    width: 45%;
+  }
+
+  .number{
+    width: 30%;
+  }
+
+  .prefectures{
+    width: 38%;
+  }
+
+.phone-number{
+    width: 60%;
+}

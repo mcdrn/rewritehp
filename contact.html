@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/specimen.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>お問い合わせ</title>
+</head>
+<body>
+    <header>
+        <div class="header-all">
+            <div class="header-upper">
+                <div class="header-logo">
+                    <a class=header-logo href="index.html"><img src="img/logo.jpg" alt="" height="50px"></a>
+                    <p class="logo-text">株式会社リライトホールディングス</p> 
+                </div>
+                <!-- <span class="material-icons" id="open-btn">menu</span> -->
+                <span class="material-icons" id="close-btn"
+                  >close</span
+                >
+            </div>
+
+
+             <!-- ハンバーガーメニューのアイコン -->
+
+             <div class="hamburger material-icons" id="open-btn">
+              <span></span>
+              <span></span>
+            </div>
+
+            <nav class="header-under">
+                <div class="index">
+                    <ul class="top">
+                        <li>
+                            <a class="index-text" href="index.html">トップ <span class="index-text-english"> Top</span>
+                                </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="accordion">
+                            <a class="index-text" href="company.html">企業情報 <span class="index-text-english">Company Info</span>
+                            </a>
+                            <button class="toggle-btn">＋</button>
+                            </div>
+                                    <div class="accordion-content">
+                                        <a href="company/message.html" class="index-more">-グループCEOメッセージ</a>
+                                        <a href="company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                                        <a href="company/summary.html" class="index-more">-会社概要</a>
+                                        <a href="company/partnar.html" class="index-more">-提携先企業一覧</a>
+                                      </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="accordion">
+                            <a class="index-text"  href="business.html">事業内容 <span class="index-text-english">Business Description </span>
+                            </a>
+                            <button class="toggle-btn">＋</button>
+                       </div>
+                            <div class="accordion-content">
+                                <a href="business/holdings.html" class="index-more">-ホールディングス事業</a>
+                                <a href="business/group.html" class="index-more">-グループ会社紹介</a>
+                              </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="accordion">
+                            <a class="index-text"  href="adoption.html">採用情報 <span class="index-text-english">Careers</span>
+                            </a>
+                            <button class="toggle-btn">＋</button>
+                        </div>
+                                <div class="accordion-content">
+                                    <a href="adoption/executive.html" class="index-more">-経営幹部採用</a>
+                                    <a href="adoption/employee.html" class="index-more">-社員採用</a>
+                                    <a href="adoption/part.html" class="index-more">-アルバイト採用</a>
+                                  </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="accordion">
+                            <a class="index-text"  href="contact.html">● お問い合わせ <span class="index-text-english">Contact</span></a>
+                            <button class="toggle-btn">＋</button>
+                        </div>
+                                <div class="accordion-content">
+                                    <a href="contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                                    <a href="contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                                    <a href="contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                                    <a href="contact/sales.html" class="index-more">-営業の方はこちら</a>
+                                  </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <main class="l-main p-inquiry" id="inquiry">
+
+            <!-- kv -->
+            <div class="m-kv m-kv--inquiry">
+              <div class="m-kv__inner">
+                <h1 class="m-kv__ttl">
+                  <span class="m-kv__ttl--ja black">お問い合わせ</span>
+                  <span class="m-kv__ttl--en">Contact</span>
+                </h1>
+              </div>
+            </div>
+            <!-- /kv -->
+          
+            <!-- breadcrumb -->
+            <div class="m-breadcrumb">
+              <ul class="m-breadcrumb__list">
+                <li class="m-breadcrumb__listItem">
+                  <a href="/">トップ</a>
+                </li>
+                <li class="m-breadcrumb__listItem">
+                  <a href="/inquiry/">お問い合わせ</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /breadcrumb -->
+          
+            <!-- <div class="l-block l-block--bg mt">
+              <div class="l-contents">
+                <div class="l-section">
+                  <h2 class="m-h2ttl">
+                    <span class="m-h2ttl--ja">よくあるご質問</span>
+                    <span class="m-h2ttl--en">FAQs</span>
+                  </h2>
+                  <div class="m-box mt">
+                    <div class="m-faqList__wrap">
+                      <h3 class="m-faqList__h3ttl js-toggleBtn">店舗に関するご質問<span class="m-faqList__toggleBtn m-faqList__toggleBtn--parent"></span></h3>
+                      <ul class="m-faqList__list js-list-element w100" style="display: none;">
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__question js-question-trigger">
+                            <span class="m-faqList__questionIcon">Q1.</span>
+                            <span class="m-faqList__questionTxt w100">お店の予約をしたいのですが、どちらから予約できますか？</span>
+                            <span class="m-faqList__toggleBtn m-faqList__toggleBtn--child js-toggleBtn"></span>
+                          </p>
+                          <p class="m-faqList__answer js-answer-hide" style="display: none;">
+                            <span class="m-faqList__answerIcon">A1.</span>
+                            <span class="m-faqList__answerTxt w100">お店へ直接お問い合わせをお願いいたします。なお、お店の情報は<a href="https://www.create-restaurants.co.jp/" target="_blank">レストランサーチ<span class="blank"><img loading="lazy" decoding="async" src="/assets/img/common/blank_orange_icon.svg" alt=""></span></a>にてご確認いただけます。</span>
+                          </p>
+                        </li>
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__question js-question-trigger">
+                            <span class="m-faqList__questionIcon">Q2.</span>
+                            <span class="m-faqList__questionTxt w100">メニューや価格について教えて欲しいのですが？</span>
+                            <span class="m-faqList__toggleBtn m-faqList__toggleBtn--child js-toggleBtn"></span>
+                          </p>
+                          <p class="m-faqList__answer js-answer-hide" style="display: none;">
+                            <span class="m-faqList__answerIcon">A2.</span>
+                            <span class="m-faqList__answerTxt w100">お店へ直接お問い合わせをお願いいたします。なお、お店の情報は<a href="https://www.create-restaurants.co.jp/" target="_blank">レストランサーチ<span class="blank"><img loading="lazy" decoding="async" src="/assets/img/common/blank_orange_icon.svg" alt=""></span></a>にてご確認いただけます。</span>
+                          </p>
+                        </li>
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__question js-question-trigger">
+                            <span class="m-faqList__questionIcon">Q3.</span>
+                            <span class="m-faqList__questionTxt w100">どんなブランドがあるのですか？</span>
+                            <span class="m-faqList__toggleBtn m-faqList__toggleBtn--child js-toggleBtn"></span>
+                          </p>
+                          <p class="m-faqList__answer js-answer-hide" style="display: none;">
+                            <span class="m-faqList__answerIcon">A3.</span>
+                            <span class="m-faqList__answerTxt w100">当社グループは多種多様なブランドを運営しています。一部のブランドを<a href="/brand/">ブランド紹介</a>にてご紹介しておりますので、是非ご覧ください。</span>
+                          </p>
+                        </li>
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__question js-question-trigger">
+                            <span class="m-faqList__questionIcon">Q4.</span>
+                            <span class="m-faqList__questionTxt w100">テイクアウトはできますか？</span>
+                            <span class="m-faqList__toggleBtn m-faqList__toggleBtn--child js-toggleBtn"></span>
+                          </p>
+                          <p class="m-faqList__answer js-answer-hide" style="display: none;">
+                            <span class="m-faqList__answerIcon">A4.</span>
+                            <span class="m-faqList__answerTxt w100">お店により異なりますので、お店へ直接お問い合わせをお願いいたします。なお、お店の情報は<a href="https://www.create-restaurants.co.jp/" target="_blank">レストランサーチ<span class="blank"><img loading="lazy" decoding="async" src="/assets/img/common/blank_orange_icon.svg" alt=""></span></a>にてご確認いただけます。</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="m-faqList__wrap js-faqWrap-trigger">
+                      <h3 class="m-faqList__h3ttl js-toggleBtn">会社情報・IR・株主優待制度に関するご質問<span class="m-faqList__toggleBtn m-faqList__toggleBtn--parent"></span></h3>
+                      <ul class="m-faqList__list js-list-element w100" style="display: none;">
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__answer mt0">
+                            <span class="m-faqList__answerTxt w100"><a href="/ir/faq/">こちら</a>をご覧ください。</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="m-faqList__wrap js-faqWrap-trigger">
+                      <h3 class="m-faqList__h3ttl js-toggleBtn">旅行会社様等からのご質問（団体ツアーレストランの予約等）<span class="m-faqList__toggleBtn m-faqList__toggleBtn--parent"></span></h3>
+                      <ul class="m-faqList__list js-list-element w100" style="display: none;">
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__question js-question-trigger">
+                            <span class="m-faqList__questionIcon">Q1.</span>
+                            <span class="m-faqList__questionTxt w100">100名前後の団体で予約できるお店を探しているのですが、どんなお店がありますか？</span>
+                            <span class="m-faqList__toggleBtn m-faqList__toggleBtn--child js-toggleBtn"></span>
+                          </p>
+                          <p class="m-faqList__answer js-answer-hide" style="display: none;">
+                            <span class="m-faqList__answerIcon">A1.</span>
+                            <span class="m-faqList__answerTxt w100">団体のお客様向けのパンフレットにてご確認頂けます。<br>団体ツアーのお客様向けは、こちらの<a href="/assets/pdf/group.pdf?2502" target="_blank">パンフレット<span class="pdf"><img loading="lazy" decoding="async" src="/assets/img/common/pdf_orange_icon.svg" alt=""></span></a>をご覧ください。</span>
+                          </p>
+                        </li>
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__question js-question-trigger">
+                            <span class="m-faqList__questionIcon">Q2.</span>
+                            <span class="m-faqList__questionTxt w100">団体の予約は、何か月前から受け付けていますか？</span>
+                            <span class="m-faqList__toggleBtn m-faqList__toggleBtn--child js-toggleBtn"></span>
+                          </p>
+                          <p class="m-faqList__answer js-answer-hide" style="display: none;">
+                            <span class="m-faqList__answerIcon">A2.</span>
+                            <span class="m-faqList__answerTxt w100">お店によって異なりますので<a href="/inquiry/form05">旅行会社様からのお問い合わせフォーム</a>よりお問い合わせをお願いいたします。</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="m-faqList__wrap js-faqWrap-trigger">
+                      <h3 class="m-faqList__h3ttl js-toggleBtn">採用に関するご質問<span class="m-faqList__toggleBtn m-faqList__toggleBtn--parent"></span></h3>
+                      <ul class="m-faqList__list js-list-element w100" style="display: none;">
+                        <li class="m-faqList__item">
+                          <p class="m-faqList__answer mt0">
+                            <span class="m-faqList__answerTxt w100"><a href="/recruit/?id=faq">こちら</a>をご覧ください。</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+          
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          
+            <div class="l-block">
+              <div class="l-contents">
+                <div class="l-section">
+                  <h2 class="m-h2ttl">
+                    <span class="m-h2ttl--ja">お問い合わせ</span>
+                    <span class="m-h2ttl--en">Contact</span>
+                  </h2>
+                  <p class="m-txt">お問い合わせは下記フォームからお願いいたします。<br>お問い合わせの内容によって、ご回答にしばらくお時間をいただく場合やご回答しかねる場合がございます。<br>予めご了承いただきますようお願い申し上げます。</p>
+                  <ul class="m-bnrList m-bnrList--flex m-bnrList--mt">
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="contact/interviw.html">
+                        <div class="m-bnrList__img">
+                          <img loading="lazy" class="contact-img" decoding="async" src="https://placehold.jp/560x300.png" alt="">
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeM">
+                          <span class="ja">会社、取材に関するお問い合わせ</span>
+                          <span class="en">Company/Interview</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="contact/adoption.html">
+                        <div class="m-bnrList__img">
+                          <img loading="lazy" class="contact-img" decoding="async" src="https://placehold.jp/560x300.png" alt="">
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeM">
+                          <span class="ja">採用に関するお問い合わせ</span>
+                          <span class="en">Recruitment</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="contact/cooperation.html">
+                        <div class="m-bnrList__img">
+                          <img loading="lazy" class="contact-img" decoding="async" src="https://placehold.jp/560x300.png" alt="">
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeM">
+                          <span class="ja">業務提携に関するお問い合わせ</span>
+                          <span class="en">Business Alliance</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="contact/sales.html">
+                        <div class="m-bnrList__img">
+                          <img loading="lazy" class="contact-img" decoding="async" src="https://placehold.jp/560x300.png" alt="">
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeM">
+                          <span class="ja">営業の方はこちら</span>
+                          <span class="en">Sales Activities</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <!-- <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="/inquiry/form03/">
+                        <div class="m-bnrList__img">
+                          <img loading="lazy" decoding="async" src="https://placehold.jp/560x300.png" alt="">
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeM">
+                          <span class="ja">採用に関するお問い合わせ</span>
+                          <span class="en">For Recruit</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="/inquiry/form06/">
+                        <div class="m-bnrList__img">
+                          <img loading="lazy" decoding="async" src="https://placehold.jp/560x300.png" alt="">
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeM">
+                          <span class="ja">その他のお問い合わせ<br><span class="small block">（店舗取材・店舗物件・新規取引等）</span></span>
+                          <span class="en">For Others</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </main>
+    </main>
+
+    <footer>
+        <div class="footer-upper">
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text" href="company.html">企業情報 <span class="index-text-english">Company Info</span>
+                </a>
+                <button class="toggle-btn">＋</button>
+                </div>
+                        <div class="accordion-content">
+                            <a href="company/message.html" class="index-more">-グループCEOメッセージ</a>
+                            <a href="company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                            <a href="company/summary.html" class="index-more">-会社概要</a>
+                            <a href="company/partnar.html" class="index-more">-提携先企業一覧</a>
+                          </div>
+            </li>
+        </ul>
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text"  href="business.html">事業内容 <span class="index-text-english">Business Description </span>
+                </a>
+                <button class="toggle-btn">＋</button>
+           </div>
+                <div class="accordion-content">
+                    <a href="business/holdings.html" class="index-more">-ホールディングス事業</a>
+                    <a href="business/group.html" class="index-more">-グループ会社紹介</a>
+                  </div>
+            </li>
+        </ul>
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text"  href="adoption.html">採用情報<span class="index-text-english"> Careers</span>
+                </a>
+                <button class="toggle-btn">＋</button>
+            </div>
+                    <div class="accordion-content">
+                        <a href="adoption/executive.html" class="index-more">-経営幹部採用</a>
+                        <a href="adoption/employee.html" class="index-more">-社員採用</a>
+                        <a href="adoption/part.html" class="index-more">-アルバイト採用</a>
+                      </div>
+            </li>
+        </ul>
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text"  href="contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+                <button class="toggle-btn">＋</button>
+            </div>
+                    <div class="accordion-content">
+                        <a href="contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                        <a href="contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                        <a href="contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                        <a href="contact/sales.html" class="index-more">-営業の方はこちら</a>
+                      </div>
+            </li>
+        </ul>
+    </div>
+        <div class="copyright-tab">
+            <a href="#"><img src="img/logo.jpg" alt=""></a><br>
+            <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+</html>

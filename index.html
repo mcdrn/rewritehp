@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/specimen.css">
+    <link rel="stylesheet" href="css/transit1.css">
+    <link rel="stylesheet" href="css/transit2.css">
+    <link rel="stylesheet" href="css/transit3.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -16,43 +19,92 @@
             <div class="header-all">
                 <div class="header-upper">
                     <div class="header-logo">
-                        <a class=header-logo href="index.html"><img src="img/logo.jpg" alt="" height="50px"></a>
+                        <a class=header-logo href="index.html"><img src="img/logo.jpg" alt="" height="40px"></a>
                         <p class="logo-text">株式会社リライトホールディングス</p> 
                     </div>
-                    <span class="material-icons" id="open-btn">menu</span>
+
+                    
+                    <!-- <span class="material-icons" id="open-btn">menu</span> -->
                     <span class="material-icons" id="close-btn"
                       >close</span
                     >
                 </div>
+               
+                  <!-- ハンバーガーアイコン -->
+                  <div class="hamburger material-icons" id="open-btn">
+                    <span></span>
+                    <span></span>
+                  </div>
+                
+                  <!-- ナビゲーションメニュー -->
 
-
+                
+                
+    
                  <!-- ハンバーガーメニューのアイコン -->
-
+    
                 <nav class="header-under">
                     <div class="index">
-                        <ul>
+                        <ul class="top">
                             <li>
-                                <a class="index-text" href="index.html">トップ Top</a>
+                                <a class="index-text" href="index.html">● ホーム <span class="index-text-english"> Home</span>
+                                    </a>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <a class="index-text" href="company.html">企業情報 Cmpany Info</a>
+                                <div class="accordion">
+                                <a class="index-text" href="company.html">企業情報 <span class="index-text-english">Company Info</span>
+                                </a>
+                                <button class="toggle-btn">＋</button>
+                                </div>
+                                        <div class="accordion-content">
+                                            <a href="company/message.html" class="index-more">-グループCEOメッセージ</a>
+                                            <a href="company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                                            <a href="company/summary.html" class="index-more">-会社概要</a>
+                                            <a href="company/partnar.html" class="index-more">-提携先企業一覧</a>
+                                          </div>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <a class="index-text"  href="business.html">事業内容 Business Description</a>
+                                <div class="accordion">
+                                <a class="index-text"  href="business.html">事業内容 <span class="index-text-english">Business Description </span>
+                                </a>
+                                <button class="toggle-btn">＋</button>
+                           </div>
+                                <div class="accordion-content">
+                                    <a href="business/holdings.html" class="index-more">-ホールディングス事業</a>
+                                    <a href="business/group.html" class="index-more">-グループ会社紹介</a>
+                                  </div>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <a class="index-text"  href="adoption.html">採用情報</a>
+                                <div class="accordion">
+                                <a class="index-text"  href="adoption.html">採用情報 <span class="index-text-english">Recruit</span>
+                                </a>
+                                <button class="toggle-btn">＋</button>
+                            </div>
+                                    <div class="accordion-content">
+                                        <a href="adoption/executive.html" class="index-more">-経営幹部採用</a>
+                                        <a href="adoption/employee.html" class="index-more">-社員採用</a>
+                                        <a href="adoption/part.html" class="index-more">-アルバイト採用</a>
+                                      </div>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <a class="index-text"  href="https://rewrite-hd.com/page3.html">お問い合わせ</a>
+                                <div class="accordion">
+                                <a class="index-text"  href="contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+                                <button class="toggle-btn">＋</button>
+                            </div>
+                                    <div class="accordion-content">
+                                        <a href="contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                                        <a href="contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                                        <a href="contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                                        <a href="contact/sales.html" class="index-more">-営業の方はこちら</a>
+                                      </div>
                             </li>
                         </ul>
                     </div>
@@ -60,7 +112,7 @@
             </div>
         </header>
         <main>
-            <div class="first-view">
+            <!-- <div class="first-view">
                 <div class="overlay"></div>
                 <div class="text-container">
                     <div class="text-content">
@@ -68,13 +120,108 @@
                     <p>可能性に満ち溢れた<br>
                         まだ見ぬ仲間たちを発掘し、<br>
                         共に夢を叶える旅に出る。</p>
-                    <!-- <a class="btn_box-1" href="#">Top Message</a>
+                    <a class="btn_box-1" href="#">Top Message</a>
                     <a class="btn_box-2" href="#">お問い合わせ</a>
-                    <img src="img/img-1.jpg" alt="firstview" width="40%"> -->
+                    <img src="img/img-1.jpg" alt="firstview" width="40%">
                     </div>
                 </div>
+            </div> -->
+            <div class="thd_top__kv">
+                <div id="js-thd_top__kv__main" class="thd_top__kv__main">
+                    <div class="thd_top__kv__main__item --1 --show">
+                        <a href="/company/vision/">
+                            <div class="thd_top__kv__main__img">
+                                <img decoding="async" src="/_wp/wp-content/uploads/2024/09/top_kv_main_img.webp" width="1266" height="500" alt="">
+                            </div>
+                            <h1 id="js-thd_top__kv__main__title" class="thd_top__kv__main__title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="454.001" height="300" viewBox="0 0 454.001 300">
+                                    <g id="グループ_817" data-name="グループ 817" transform="translate(-455 -221)">
+                                        <!-- <path id="パス_479" data-name="パス 479" d="M111.573-40l-14.9,14H68.581V9H54.25V-75H97.242l14.331,14ZM97.242-45.74v-9.52L91.366-61H68.581v21H91.366ZM177.494,9H123.611V-75h14.331V-5h39.553Zm69.074,0H231.807L228.225-5h-20.35L204.292,9H189.532l20.78-84h15.477ZM224.642-19,218.05-44.9,211.458-19Zm77.529-56L282.108-33V9H267.777V-33L247.714-75h15.764l11.465,23.94L286.407-75Zm70.794,14H329.973v21h21.5v14h-21.5V9H315.642V-75h57.323Zm69.36,56L427.994,9H399.333L385-5V-75h14.331v64.26L405.209-5h16.91l5.876-5.74V-75h14.331ZM508.246,9H456.656V-75h14.331V-5h37.26Z" transform="translate(400.75 296)" fill="#fff" opacity="0.995"></path> -->
+                                        <!-- <path id="パス_482" data-name="パス 482" d="M597.8-5,583.458,9H540.422V-75h43.035L597.8-61Zm-14.345-5.74V-55.26L577.576-61H554.767V-5h22.809ZM668.094,9H653.318L649.732-5h-20.37L625.776,9H611l20.8-84h15.493ZM646.146-19l-6.6-25.9-6.6,25.9Zm76.459-56L702.522-33V9H688.177V-33L668.094-75h15.779l11.476,23.94L706.826-75ZM787.732-5,773.387,9H744.7L730.352-5v-7H744.7v1.26L750.578-5h16.927l5.881-5.74v-9.52L767.506-26H744.7L730.352-40V-61L744.7-75h28.69l14.345,14v7H773.387v-1.26L767.506-61H750.578L744.7-55.26v9.52L750.578-40h22.809l14.345,14Zm28.69,14H802.077V-5h14.345Z" transform="translate(-85.422 399)" fill="#fff" opacity="0.995"></path> -->
+                                        <!-- <path id="パス_481" data-name="パス 481" d="M31.693-18,28.472,2H25.047L21.657-11.367,18.266,2H14.841L11.62-18h3.425L16.91-6.433,19.86-18h3.594L26.4-6.433,28.269-18ZM49.009,2H35.446V-18H49.009v3.333H38.836v5h5.086v3.333H38.836v5H49.009ZM73.2-1.333,69.67,2H63.024L59.633-1.333V-14.667L63.024-18h6.782L73.2-14.667V-13H69.805v-.3l-1.39-1.367h-4L63.024-13.3V-2.7l1.39,1.367h4L69.805-2.7V-3H73.2Zm17.18-8.333L86.85-6.333,90.376,2h-3.7L83.086-6.333H80.2V2H76.813V-18H86.985l3.391,3.333Zm-3.391-1.367V-13.3L85.6-14.667H80.2v5H85.6ZM107.556,2H93.993V-18h13.563v3.333H97.384v5h5.086v3.333H97.384v5h10.172Zm15.982,0h-3.493L119.2-1.333h-4.815L113.535,2h-3.492l4.917-20h3.662ZM118.35-4.667l-1.56-6.167-1.56,6.167Zm19.045-10h-5.086V2h-3.391V-14.667h-5.086V-18h13.563ZM154.574,2H141.011V-18h13.563v3.333H144.4v5h5.086v3.333H144.4v5h10.172Zm27.578-3.333L178.762,2H171.98L168.59-1.333V-3h3.391v.3l1.39,1.367h4l1.39-1.367V-4.967l-1.39-1.367H171.98L168.59-9.667v-5L171.98-18h6.782l3.391,3.333V-13h-3.391v-.3l-1.39-1.367h-4L171.98-13.3v2.267l1.39,1.367h5.391l3.391,3.333Zm17.18-8.333-3.526,3.333H189.16V2h-3.391V-18h10.172l3.391,3.333Zm-3.391-1.367V-13.3l-1.39-1.367H189.16v5h5.391ZM216.512,2H202.949V-18h13.563v3.333H206.34v5h5.086v3.333H206.34v5h10.172Zm17.18-3.333L230.166,2H223.52l-3.391-3.333V-14.667L223.52-18H230.3l3.391,3.333V-13H230.3v-.3l-1.39-1.367h-4L223.52-13.3V-2.7l1.39,1.367h4L230.3-2.7V-3h3.391ZM240.7,2h-3.391V-18H240.7Zm17.112,0h-3.493l-.848-3.333h-4.815L247.809,2h-3.492l4.917-20H252.9Zm-5.188-6.667-1.56-6.167L249.5-4.667ZM272.8,2H261.5V-18h3.391V-1.333H272.8Zm24.187,0H283.423V-18h13.563v3.333H286.814v5H291.9v3.333h-5.086v5h10.172Zm17.18,0h-3.73l-3.052-6.4L304.333,2H300.6L305.52-8.367,300.942-18h3.73l2.713,5.7L310.1-18h3.73l-4.578,9.633Zm17.18-11.667L327.82-6.333h-6.646V2h-3.391V-18h10.172l3.391,3.333Zm-3.391-1.367V-13.3l-1.39-1.367h-5.391v5h5.391ZM348.526,2H334.963V-18h13.563v3.333H338.354v5h5.086v3.333h-5.086v5h10.172Zm17.18-11.667-3.526,3.333L365.706,2h-3.7l-3.594-8.333h-2.882V2h-3.391V-18h10.172l3.391,3.333Zm-3.391-1.367V-13.3l-1.39-1.367h-5.391v5h5.391ZM372.713,2h-3.391V-18h3.391Zm17.18,0H376.33V-18h13.563v3.333H379.721v5h5.086v3.333h-5.086v5h10.172Zm17.18,0h-3.391L396.9-10.733V2H393.51V-18l3.391.033,6.782,12.733V-18h3.391Zm17.18-3.333L420.726,2H414.08L410.69-1.333V-14.667L414.08-18h6.782l3.391,3.333V-13h-3.391v-.3l-1.39-1.367h-4L414.08-13.3V-2.7l1.39,1.367h4l1.39-1.367V-3h3.391ZM441.433,2H427.87V-18h13.563v3.333H431.26v5h5.086v3.333H431.26v5h10.172Zm17.18-3.333L455.222,2H448.44l-3.391-3.333V-3h3.391v.3l1.39,1.367h4l1.39-1.367V-4.967l-1.39-1.367H448.44l-3.391-3.333v-5L448.44-18h6.782l3.391,3.333V-13h-3.391v-.3l-1.39-1.367h-4L448.44-13.3v2.267l1.39,1.367h5.391l3.391,3.333ZM465.62,2h-3.391V-1.333h3.391Z" transform="translate(443.381 449)" fill="#fff" opacity="0.995"></path> -->
+                                        <g id="グループ_768" data-name="グループ 768" transform="translate(455 471)">
+                                            <rect id="長方形_505" data-name="長方形 505" width="308" height="50" transform="translate(0 0)" fill="#fff"></rect>
+                                            <!-- <path id="パス_480" data-name="パス 480" d="M-93.7-20.133c.42-1.216.5-1.3,1.133-1.551.21-.084.5-.21.5-.5,0-.252-.294-.461-.462-.5L-96.845-23.7a29.944,29.944,0,0,1-2.812,6.919v-2.558h-3.778v-2.306c0-.21.084-.419.42-.755a1.15,1.15,0,0,0,.42-.755c0-.419-.839-.5-2.183-.587l-3.358-.21v4.612h-4.617v4.109h3.442a55.02,55.02,0,0,1-.672,10.567A21.1,21.1,0,0,1-113,2.51l3.484,2.138c2.56-4.654,3.316-7.757,3.945-13h1.973a76.964,76.964,0,0,1-.672,8.806,1.857,1.857,0,0,1-2.141,1.8,7.439,7.439,0,0,1-1.553-.21l1.007,4.193c3.19-.042,5.247-.084,5.96-3.019a53.965,53.965,0,0,0,.714-8.3c.084-2.516.126-4.99.126-6.5l1.091.839c.42-.5.839-1.006,1.217-1.51v2.642h5.624l-1.217,1.971-.378-.084v2.1h-5.247v3.648h5.247V1.042c0,1.132-.378,1.3-1.637,1.3a16.5,16.5,0,0,1-1.931-.126l1.007,4.193c1.595-.042,4.029-.084,5.415-.922a2.186,2.186,0,0,0,1.091-2.138V-1.977h4.239V-5.625h-4.239V-6.673L-86.1-11.16l-1.511-1.971h-9.612A25.575,25.575,0,0,0-95.5-16.065h9.7v-4.067Zm-28.374-.461a29.562,29.562,0,0,1,5.96,5.7l3.19-3.438a30.892,30.892,0,0,0-5.918-5.535Zm21.238,8.512h-4.491c.042-1.048.084-2.1.084-3.145h4.575a15.123,15.123,0,0,1-1.637,1.971Zm16.705,18.7c-6.044.545-11.207.8-18.09.8-2.77,0-6,0-7.975-.8-2.308-.922-2.9-2.809-2.9-5.158V-8.769h-8.6v4.025h4.281V3.223c-1.8,1.216-3.652,2.432-5.5,3.564l2.6,4.445a.872.872,0,0,0,.672.461c.462,0,.546-.377.546-.713,0-.671.336-.964,1.721-2.306.462-.461,1.007-1.006,1.847-1.8,1.763,2.055,3.022,3.229,5.792,3.9,2.1.5,6.338.545,9.906.545h13.347Zm38.489-30.107a20.532,20.532,0,0,1,3.274,3.061l1.721-2.1a26.8,26.8,0,0,0-3.19-2.977Zm-32.319,7.422,2.392,4.4a28.514,28.514,0,0,0,5.54-2.264C-71.829-9.9-73.55-5.205-73.55-.8A11.086,11.086,0,0,0-62.091,10.645,11.218,11.218,0,0,0-53.612,7c2.6-3.019,3.358-7.548,3.358-11.405a34.416,34.416,0,0,0-.672-6.877A37.564,37.564,0,0,0-45.05-3.151l3.19-3.816c-5.247-4.445-8.311-8.973-11.417-15.053l-4.449,2.138a30.373,30.373,0,0,1,3.4,13.837c0,2.767-.378,6.038-1.847,8.47a7.021,7.021,0,0,1-6.128,3.4c-4.407,0-6.59-3.313-6.59-7.38,0-6,2.728-11.447,5.834-16.353l-3.652-3.229A24.333,24.333,0,0,1-77.957-16.065Zm29.465-3.858a21.71,21.71,0,0,1,3.316,3.48l1.8-1.971a17.59,17.59,0,0,0-3.442-3.4ZM-21.5,10.812a41.305,41.305,0,0,0,6.59-5.2A24.106,24.106,0,0,0-10.8.12h2.1a27.524,27.524,0,0,1-9.57,10.063l3.148,2.1a28.682,28.682,0,0,0,5.163-4.4l1.679,4.109c1.931,0,4.113-.168,5.708-1.468S-.348,6.284-.013,4.313A47.89,47.89,0,0,0,.7-3.36H-14.577a12.667,12.667,0,0,0,.756-1.51H1.2v-3.4h-23.3v3.4H-18.1A15.766,15.766,0,0,1-21.167-.383v-3.48c-1.385.5-2.812.922-4.239,1.342v-8.554h4.365v-4.319h-4.365V-21.6c0-.294.336-.5.546-.629A.844.844,0,0,0-24.4-22.9c0-.21-.168-.419-.546-.461l-4.869-.377v8.344h-4.071v4.319h4.071v9.77c-1.553.377-3.106.8-4.659,1.09l.755,4.7a.344.344,0,0,0,.294.294c.168,0,.294-.084.588-.461.378-.461.5-.545,2.183-.922,1.763-.419,6.716-2.18,8.688-2.935a26.5,26.5,0,0,1-3.694,2.767l3.316,2.222A33.831,33.831,0,0,0-16.718.12h1.931a25.857,25.857,0,0,1-9.99,8.386ZM-1.943-9.86V-23.068H-18.984V-9.86Zm-4.071-7.925h-8.9v-1.761h8.9Zm0,2.977V-13h-8.9v-1.8ZM-3.748.12A16.512,16.512,0,0,1-5.091,6.535,2.115,2.115,0,0,1-7.316,7.709a10.43,10.43,0,0,1-2.267-.252A25.305,25.305,0,0,0-4.756.12Zm34.39-3.354c2.77-1.048,5.582-2.013,8.437-2.935l-1.427-4.78C35.175-9.86,32.7-8.686,30.222-7.512a5.681,5.681,0,0,0-5.708-4.235,7.78,7.78,0,0,0-3.61.881c.839-1.342,1.637-2.767,2.392-4.193a81.7,81.7,0,0,0,10.032-1.551l.294-4.7A35.493,35.493,0,0,1,25.4-19.168c.378-.755.965-2.1,1.091-2.432.168-.419.336-.5.881-.713s.714-.294.714-.545c0-.294-.336-.377-.839-.461L22-24.242a34.294,34.294,0,0,1-2.057,5.577c-1.049.042-1.889.042-2.812.042-1.763,0-3.526-.084-5.247-.21l.5,4.361c1.8,0,3.652-.084,5.457-.168A57.315,57.315,0,0,1,9.571-3.109L13.685-.551c2.267-3.648,4.785-7.59,8.94-7.59,2.015,0,2.77.922,3.19,2.767a57.838,57.838,0,0,0-6.548,3.732,7.781,7.781,0,0,0-3.61,6.667,5.759,5.759,0,0,0,1.595,4.109c2.392,2.6,6.548,2.809,9.864,2.809a66.6,66.6,0,0,0,9.99-.629V6.577A48.575,48.575,0,0,1,26.4,7.919c-2.225,0-6.254-.21-6.254-3.271,0-2.767,3.736-4.822,5.918-5.912-.042,2.1-.126,4.193-.21,6.29h4.869C30.684,2.3,30.642-1.054,30.642-3.235ZM64.99-16.275a15.148,15.148,0,0,0,2.392,1.006l2.35-3.271a24.683,24.683,0,0,1-7.849-4.445.449.449,0,0,0,.084-.252c0-.335-.252-.461-.923-.5l-4.575-.294c-1.637,3.69-5.792,7-9.444,8.512l3.106,3.187A43.489,43.489,0,0,0,54.2-15.1v2.138H64.99ZM78.043-23.7V5.865c0,.629-.168,1.09-.923,1.09-1.049,0-2.56-.042-3.61-.126l2.225,4.906a26.115,26.115,0,0,0,3.61-.252c2.434-.335,3.148-1.971,3.148-4.235v-28.6c0-.168.168-.335.5-.545.21-.126.5-.335.5-.587,0-.461-.546-.629-1.175-.713Zm-22.078,7.17a33.286,33.286,0,0,0,3.442-3.438,30.353,30.353,0,0,0,5.121,3.438Zm15.11-2.055V2.678h4.2v-19.2c0-.21.294-.377.5-.5.336-.21.462-.377.462-.5,0-.5-.672-.629-1.091-.671ZM52.943,12.364h4.029V11.148h7.093v1.216h3.945V.665H54.371a11.039,11.039,0,0,0,.294-1.258H67.928V-12H51.013v3.774c0,4.025-.042,6.709-.839,9.351a18.573,18.573,0,0,1-4.281,7.548L50.215,10.6a22.859,22.859,0,0,0,2.728-5.451ZM55.252-7.721V-9.1h8.521v1.384Zm-.21,4.109c.042-.5.084-1.006.126-1.551h8.6v1.551Zm1.931,7.506h7.093v3.9H56.973ZM96.064-21.391l1.679,4.822a47.8,47.8,0,0,0,9.444-.964A131.4,131.4,0,0,1,90.985-.97l3.862,3.4a39.918,39.918,0,0,1,7.135-6.457A14.271,14.271,0,0,1,109.5-6.463c3.358,0,6.254,1.761,6.254,5.409,0,6.793-7.807,8.219-13.138,8.219-.755,0-1.469,0-2.225-.042l2.141,4.487c4.449-.252,9.528-.713,13.389-3.229a10.245,10.245,0,0,0,4.659-8.931c0-5.745-4.2-9.6-9.864-9.6a15.21,15.21,0,0,0-4.743.8,125.511,125.511,0,0,1,10.074-10.525l-2.9-3.438a40.181,40.181,0,0,1-12.55,2.264A32.977,32.977,0,0,1,96.064-21.391Zm38.825-2.977.378,5.158a98.969,98.969,0,0,0,11.627,1.048l.588-4.738A50.937,50.937,0,0,1,134.889-24.368Zm-5.876,14.3,1.931,4.864c3.19-1.593,9.864-4.864,13.305-4.864,2.56,0,3.778,2.1,3.778,4.445a12.844,12.844,0,0,1-3.064,8.009c-2.812,3.4-6.338,5.074-10.493,6.29L137.7,12.7c4.323-1.593,7.891-3.354,10.913-6.961A19.017,19.017,0,0,0,152.9-6.212c0-4.7-2.267-8.26-7.387-8.26C140.555-14.472,133.63-11.914,129.013-10.069ZM165.657-.383a6.5,6.5,0,0,0-6.506,6.457,6.485,6.485,0,1,0,12.97,0A6.463,6.463,0,0,0,165.657-.383Zm0,2.013a4.466,4.466,0,0,1,0,8.931,4.466,4.466,0,1,1,0-8.931Z" transform="translate(129.695 30.762)"></path> -->
+                                        </g>
+                                    </g>
+                                </svg>
+                            </h1>
+                        </a>
+                        <div id="js-thd_top__kv__main__logos" class="thd_top__kv__main__logos --hide">
+                            <div class="thd_top__kv__main__logos__logo --1">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img1_mb.webp">
+                                    <img decoding="async" src="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img1_dt.webp" alt="">
+                                </picture>
+                            </div>
+                            <div class="thd_top__kv__main__logos__logo --2 --show">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img2_mb.webp">
+                                    <img decoding="async" src="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img2_dt.webp" alt="">
+                                </picture>
+                            </div>
+                            <div class="thd_top__kv__main__logos__logo --3 --show">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img3_mb.webp">
+                                    <img decoding="async" src="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img3_dt.webp" alt="">
+                                </picture>
+                            </div>
+                            <div class="thd_top__kv__main__logos__logo --4 --show">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img4_mb.webp">
+                                    <img decoding="async" src="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img4_dt.webp" alt="">
+                                </picture>
+                            </div>
+                            <div class="thd_top__kv__main__logos__logo --5 --show">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img5_mb.webp">
+                                    <img decoding="async" src="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img5_dt.webp" alt="">
+                                </picture>
+                            </div>
+                            <div class="thd_top__kv__main__logos__logo --6 --show">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img6_mb.webp">
+                                    <img decoding="async" src="/_wp/wp-content/plugins/my-snow-monkey/img/top_kv_main_logos_img6_dt.webp" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thd_top__kv__lower">
+                    <a class="thd_top__kv__lower__item --1" href="/company/top-message/">
+                        <div class="img">
+                            
+                        </div>
+                        <div class="text">
+                            <p class="title__en">
+                                TOP<span class="--desktop"></span>
+                                <br class="--mobile">MESSAGE
+                            </p>
+                            <p class="title__jp thd_mod-arw__link --large --wh">メッセージ</p>
+                        </div>
+                    </a>
+                    <a class="thd_top__kv__lower__item --2" href="/company">
+                        <div class="img">
+                           
+                        </div>
+                        <div class="text">
+                            <p class="title__en">
+                                COMPANY<span class="--desktop"></span>
+                                <br class="--mobile">PROFILE
+                            </p>
+                            <p class="title__jp thd_mod-arw__link --large --wh">会社概要</p>
+                        </div>
+                    </a>
+                    <a class="thd_top__kv__lower__item --3" href="/recruit/">
+                   
+                        </div>
+                        <div class="text">
+                            <p class="title__en">RECRUIT</p>
+                            <p class="title__jp thd_mod-arw__link --large --wh">採用情報</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-
             
                 <!-- <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -91,7 +238,7 @@
 
 
                     <!-- Swiper スライドショー -->
-    <div class="swiper-container">
+    <!-- <div class="swiper-container">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -120,28 +267,170 @@
                 </div>
 
             </div>
-             <!-- 矢印ボタン -->
-              <div class="swiper-button">
+              矢印ボタン -->
+              <!-- <div class="swiper-button">
 
                   <div class="swiper-button-prev"></div>
                   <div class="swiper-button-next"></div>
               </div>
-        </div>
+        </div> -->
 
         <!-- 進行バーとボタン -->
-        <div class="progress-container">
+        <!-- <div class="progress-container">
             <div class="progress-bar"></div>
             <a href="business/group.html">
                 <button class="group-list-btn">グループ一覧</button>
             </a>
 
         </div>
+    </div>  -->
+
+
+    <!-- <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://placehold.jp/300x150.png" alt=""></div>
+        </div>
+        ↓↓↓プログレスバー用の要素↓↓↓
+        <div class="swiper-pagination"></div>
+      </div> -->
+
+
+      <div class="wp-block-snow-monkey-blocks-section smb-section smb-section--fit thd_top__news js-inview is-inview">
+        <div class="smb-section__inner">
+            <div class="c-container">
+                <div class="smb-section__contents-wrapper">
+                    <div class="smb-section__header">
+                        <h2 class="smb-section__title">NEWS</h2>
+                        <div class="smb-section__lede-wrapper">
+                            <div class="smb-section__lede">ニュース</div>
+                        </div>
+                    </div>
+                    <div class="smb-section__body is-layout-constrained wp-block-section-is-layout-constrained">
+                        <nav class="thd_top__news__nav wp-block-navigation is-layout-flex wp-block-navigation-is-layout-flex" aria-label="newsNav">
+                            <ul class="wp-block-navigation__container  thd_top__news__nav wp-block-navigation">
+                                <li class=" wp-block-navigation-item  menu-item menu-item-type-custom menu-item-object-custom wp-block-navigation-link">
+                                    <a class="wp-block-navigation-item__content" href="/news" title="">
+                                        <span class="wp-block-navigation-item__label">すべて</span>
+                                    </a>
+                                </li>
+                                <li class=" wp-block-navigation-item  menu-item menu-item-type-custom menu-item-object-custom wp-block-navigation-link">
+                                    <a class="wp-block-navigation-item__content" href="/news_cat/news-release" title="">
+                                        <span class="wp-block-navigation-item__label">ニュースリリース</span>
+                                    </a>
+                                </li>
+                                <li class=" wp-block-navigation-item  menu-item menu-item-type-custom menu-item-object-custom wp-block-navigation-link">
+                                    <a class="wp-block-navigation-item__content" href="/news_cat/media" title="">
+                                        <span class="wp-block-navigation-item__label">メディア掲載</span>
+                                    </a>
+                                </li>
+                                <li class=" wp-block-navigation-item  menu-item menu-item-type-custom menu-item-object-custom wp-block-navigation-link">
+                                    <a class="wp-block-navigation-item__content" href="/news_cat/group-information" title="">
+                                        <span class="wp-block-navigation-item__label">グループ情報</span>
+                                    </a>
+                                </li>
+                                <li class=" wp-block-navigation-item  menu-item menu-item-type-custom menu-item-object-custom wp-block-navigation-link">
+                                    <a class="wp-block-navigation-item__content" href="/news_cat/notice" title="">
+                                        <span class="wp-block-navigation-item__label">お知らせ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="smb-recent-posts wp-block-snow-monkey-blocks-recent-posts">
+                            <div class="snow-monkey-posts snow-monkey-recent-posts">
+                                <ul class="c-entries c-entries--text2" data-has-infeed-ads="false" data-force-sm-1col="false">
+                                    <li class="c-entries__item">
+                                        <a href="https://transithospitalitymanagement.com/news/%e4%ba%ac%e9%83%bd%e3%81%ae%e3%82%a4%e3%82%bf%e3%83%aa%e3%82%a2%e3%83%b3%e3%80%8cerutan-restaurant-bar%e3%80%8d%e3%81%8c%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%92%e4%b8%80%e6%96%b0%e3%81%97/" target="_blank" rel="noopener">
+                                            <section class="c-entry-summary c-entry-summary--news c-entry-summary--type-news">
+                                                <div class="c-entry-summary__figure">
+                                                    <span class="c-entry-summary__term c-entry-summary__term--news_cat-10 c-entry-summary__term--news_cat-slug-group-information">グループ情報	</span>
+                                                </div>
+                                                <div class="c-entry-summary__body">
+                                                    <div class="c-entry-summary__meta">
+                                                        <ul class="c-meta">
+                                                            <li class="c-meta__item c-meta__item--published">2025.04.01    </li>
+                                                            <li class="c-meta__item c-meta__item--categories">
+                                                                <span class="c-entry-summary__term">グループ情報</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-entry-summary__header">
+                                                        <h3 class="c-entry-summary__title">京都のイタリアン「ERUTAN RESTAURANT/BAR」がメニューを一新しリニューアル。</h3>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </a>
+                                    </li>
+                                    <li class="c-entries__item">
+                                        <a href="https://www.transit-web.com/news/%e3%82%b7%e3%83%b3%e3%82%b8%e3%82%b1%e3%83%bc%e3%83%88%e3%83%ad%e3%83%bc%e3%83%b3%e5%a5%91%e7%b4%84%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/">
+                                            <section class="c-entry-summary c-entry-summary--news c-entry-summary--type-news">
+                                                <div class="c-entry-summary__figure">
+                                                  
+                                                    <span class="c-entry-summary__term c-entry-summary__term--news_cat-11 c-entry-summary__term--news_cat-slug-notice">お知らせ	</span>
+                                                </div>
+                                                <div class="c-entry-summary__body">
+                                                    <div class="c-entry-summary__meta">
+                                                        <ul class="c-meta">
+                                                            <li class="c-meta__item c-meta__item--published">2025.03.31    </li>
+                                                            <li class="c-meta__item c-meta__item--categories">
+                                                                <span class="c-entry-summary__term">お知らせ</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-entry-summary__header">
+                                                        <h3 class="c-entry-summary__title">シンジケートローン契約に関するお知らせ</h3>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </a>
+                                    </li>
+                                    <li class="c-entries__item">
+                                        <a href="https://transitoperationservice.com/news/%e3%83%89%e3%83%a9%e3%82%a4%e3%83%96%e3%82%a4%e3%83%b3%e3%82%ab%e3%83%95%e3%82%a7%e3%80%88pacific-drive-in-%e4%b8%83%e9%87%8c%e3%83%b6%e6%b5%9c%e3%80%89%e3%81%8c%e3%80%81%e3%80%8c10th-anniversary-part/" target="_blank" rel="noopener">
+                                            <section class="c-entry-summary c-entry-summary--news c-entry-summary--type-news">
+                                                <div class="c-entry-summary__figure">
+                                                    <span class="c-entry-summary__term c-entry-summary__term--news_cat-10 c-entry-summary__term--news_cat-slug-group-information">グループ情報	</span>
+                                                </div>
+                                                <div class="c-entry-summary__body">
+                                                    <div class="c-entry-summary__meta">
+                                                        <ul class="c-meta">
+                                                            <li class="c-meta__item c-meta__item--published">2025.03.18    </li>
+                                                            <li class="c-meta__item c-meta__item--categories">
+                                                                <span class="c-entry-summary__term">グループ情報</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-entry-summary__header">
+                                                        <h3 class="c-entry-summary__title">ドライブインカフェ〈Pacific DRIVE-IN 七里ヶ浜〉が、「10th ANNIVERSARY PARTY supported by Social Sounds™」を2025年3月30日（日）に開催。</h3>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="wp-block-snow-monkey-blocks-buttons smb-buttons is-content-justification-right is-layout-flex wp-container-snow-monkey-blocks-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+                            <div class="wp-block-snow-monkey-blocks-btn smb-btn-wrapper is-style-text thd_mod-arw__link --large">
+                                <a class="smb-btn" href="/news">
+                                    <span class="smb-btn__label">ニュースを詳しく見る</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-
-
-
-                
+<!--                 
                 <section class="topics">
                     <div class="topics-main">
                         <h2>TOPICS</h2>
@@ -187,7 +476,7 @@
                         </div>
                     </div>
                 </section>
-            
+             -->
             
 
                 <section class="vision">
@@ -207,9 +496,9 @@
                     </div>
                 </section>
             <div class="product">
-               
+            
                 
-                <section class="product-section">
+                <section class="product-section"
                     <h2 class="section-title">Product</h2>
                     <p class="section-description">事業内容について</p>
             
@@ -233,71 +522,117 @@
                         <h4>経営人材育成事業</h4>
                         <p>次世代のリーダーを育成するための教育プログラムとメンタリングを実施します。実践的な経験と知識の習得を通じて、戦略的思考能力と経営能力を有する人材を育成し、グループの将来を担います。</p>
                     </div>
-                </section>
+                </section> 
+
+                </div>
                     <!-- 社長メッセージ -->
-    <section class="section-ceo">
+    <!-- <section class="section-ceo">
         <div class="card-container fade-in">
             <a href="company/message.html" class="card">
                 <div class="card-image">
-                    <!-- <img src="https://placehold.jp/500x500.png" alt="社長"> -->
+                    <img src="https://placehold.jp/500x500.png" alt="社長">
                 </div>
                 <div class="card-text">
-                    <h3>社長メッセージ <span class="arrow">▶</span></h3>
+                    <h3>グループCEOメッセージ <span class="arrow">▶</span></h3>
                 </div>
             </a>
         </div>
-    </section>
+    </section> -->
 
     <!-- 採用情報 -->
-    <section class="section-saiyou">
+    <!-- <section class="section-saiyou">
         <div class="card-container fade-in">
             <a href="adoption.html" class="card">
                 <div class="card-image">
-                    <!-- <img src="https://placehold.jp/500x500.png" alt="採用情報"> -->
+                    <img src="https://placehold.jp/500x500.png" alt="採用情報">
                 </div>
                 <div class="card-text">
                     <h3>採用情報 <span class="arrow">▶</span></h3>
                 </div>
             </a>
         </div>
-    </section>
+    </section> -->
     
                 
         </main>
         <footer>
-            <div class="footer">
-                <div class="footer-text">
-                    <h2>企業情報</h2>
-                    <div class="detailes">
-                        <a href="company/message.html">-グループCEOメッセージ</a>
-                        <a href="company/mission.html">-グループミッション・経営理念</a>
-                        <a href="company/summary.html">-会社概要</a>
-                        <a href="company/partnar.html">-提携先企業一覧</a>
+            <div class="footer-upper">
+                <ul class="footer-index top">
+                    <li>
+                        <div class="accordion accordion-top">
+                            <a class="circle">
+                                ●　
+                            </a>
+                            <a class="index-text" href="index.html">
+                                <!-- <span class="circle"></span> -->
+                                ホーム <span class="index-text-english"> Home</span>
+                            </a>
+                            </div>
+                    </li>
+                </ul>
+            <ul class="footer-index">
+                <li>
+                    <div class="accordion">
+                    <a class="index-text" href="company.html">企業情報 <span class="index-text-english">Company Info</span>
+                    </a>
+                    <button class="toggle-btn">＋</button>
                     </div>
+                            <div class="accordion-content">
+                                <a href="company/message.html" class="index-more">-グループCEOメッセージ</a>
+                                <a href="company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                                <a href="company/summary.html" class="index-more">-会社概要</a>
+                                <a href="company/partnar.html" class="index-more">-提携先企業一覧</a>
+                              </div>
+                </li>
+            </ul>
+            <ul class="footer-index">
+                <li>
+                    <div class="accordion">
+                    <a class="index-text"  href="business.html">事業内容 <span class="index-text-english">Business Description </span>
+                    </a>
+                    <button class="toggle-btn">＋</button>
+               </div>
+                    <div class="accordion-content">
+                        <a href="business/holdings.html" class="index-more">-ホールディングス事業</a>
+                        <a href="business/group.html" class="index-more">-グループ会社紹介</a>
+                      </div>
+                </li>
+            </ul>
+            <ul class="footer-index">
+                <li>
+                    <div class="accordion">
+                    <a class="index-text"  href="adoption.html">採用情報<span class="index-text-english"> Recruit</span>
+                    </a>
+                    <button class="toggle-btn">＋</button>
                 </div>
-                <div class="footer-text">
-                    <h2>事業紹介</h2>
-                    <div class="detailes">
-                        <a href="business/holdings.html">-ホールディングス事業</a>
-                        <!-- <a href="business/subsidiary.html">-子会社の経営管理等</a> -->
-                        <a href="business/group.html">-グループ会社紹介</a>
-                    </div>
+                        <div class="accordion-content">
+                            <a href="adoption/executive.html" class="index-more">-経営幹部採用</a>
+                            <a href="adoption/employee.html" class="index-more">-社員採用</a>
+                            <a href="adoption/part.html" class="index-more">-アルバイト採用</a>
+                          </div>
+                </li>
+            </ul>
+            <ul class="footer-index">
+                <li>
+                    <div class="accordion">
+                    <a class="index-text"  href="contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+                    <button class="toggle-btn">＋</button>
                 </div>
-                <div class="footer-text">
-                    <h2>採用情報</h2>
-                    <div class="detailes">
-                        <a href="adoption/executive.html">-経営幹部採用</a>
-                        <a href="adoption/employee.html">-社員採用社員採用</a>
-                        <a href="adoption/part.html">-アルバイト採用</a>
-                    </div>
-                </div>
-                <div class="footer-text">
-                    <h2>お問い合わせ</h2>
-                </div>
-            </div>
+                        <div class="accordion-content">
+                            <a href="contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                            <a href="contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                            <a href="contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                            <a href="contact/sales.html" class="index-more">-営業の方はこちら</a>
+                          </div>
+                </li>
+            </ul>
+        </div>
             <div class="copyright-tab">
-                <a href="#"><img src="img/logo.jpg" alt=""></a><br>
-                <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
+                <a href="#"><img src="img/logo-background-none.png" alt=""></a><br>
+                <div class="copyright-main">
+                    <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
+
+                </div>
             </div>
         </footer>
     </section>

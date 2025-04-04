@@ -14253,8 +14253,10 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-breadcrumb {
+    
         width:92vw;
         margin: 1.33333vw auto 0
+    
     }
 }
 
@@ -14272,8 +14274,10 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-breadcrumb__list {
+        margin: 5px 0;
         -ms-flex-wrap:wrap;
         flex-wrap: wrap
+        
     }
 }
 
@@ -16555,14 +16559,17 @@ pre.wp-block-verse {
 }
 
 .m-kv {
+    background-color: #fff;
     position: relative;
     width: 100%;
     height: 300px
+    
 }
 
 @media screen and (max-width: 750px) {
     .m-kv {
         height:53.33333vw
+        
     }
 }
 
@@ -22142,8 +22149,8 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .p-company__messageImg {
-        width:92vw;
-        margin-top: 8vw
+        width: 300px;
+        margin: auto;
     }
 }
 
@@ -31675,5 +31682,15 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px){
     .p-profile__listChild{
         padding-left: 0;
+    }
+}
+
+@media(max-width: 480px){
+    .contact-img{
+        width: 100%;
+    }
+
+    .contents-area .h2-title-area h2{
+        border-left: 8px solid #000;
     }
 }

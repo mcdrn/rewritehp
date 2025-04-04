@@ -5,53 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../css/specimen.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>CEO メッセージ</title>
 <body>
-    <header>
-        <div class="header-all">
-            <div class="header-upper">
-                <div class="header-logo">
-                    <a class=header-logo href="../index.html"><img src="../img/logo.jpg" alt="" height="50px"></a>
-                    <p class="logo-text">株式会社リライトホールディングス</p> 
-                </div>
+  <header>
+    <div class="header-all">
+        <div class="header-upper">
+            <div class="header-logo">
+                <a class=header-logo href="../index.html"><img src="../img/logo.jpg" alt="" height="50px"></a>
+                <p class="logo-text">株式会社リライトホールディングス</p> 
             </div>
-
-
-             <!-- ハンバーガーメニューのアイコン -->
-<div class="hamburger-menu">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-</div>
-
-            <nav class="header-under">
-                <div class="index">
-                    <span class="close-btn">&times;</span>
-                    <ul>
-                        <li>
-                            <a class="index-text" href="../company.html">企業情報</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a class="index-text"  href="../business.html">事業内容</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a class="index-text"  href="../adoption.html">採用情報</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a class="index-text"  href="https://rewrite-hd.com/page3.html">お問い合わせ</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <span class="material-icons" id="open-btn">menu</span>
+            <span class="material-icons" id="close-btn"
+              >close</span
+            >
         </div>
-    </header>
+
+
+         <!-- ハンバーガーメニューのアイコン -->
+
+        <nav class="header-under">
+            <div class="index">
+                <ul class="top">
+                    <li>
+                        <a class="index-text" href="../index.html">トップ <span class="index-text-english"> Top</span>
+                            </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text" href="../company.html">企業情報 <span class="index-text-english">Company Info</span>
+                        </a>
+                        <button class="toggle-btn">＋</button>
+                        </div>
+                                <div class="accordion-content">
+                                    <a href="../company/message.html" class="index-more">-グループCEOメッセージ</a>
+                                    <a href="../company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                                    <a href="../company/summary.html" class="index-more">-会社概要</a>
+                                    <a href="../company/partnar.html" class="index-more">-提携先企業一覧</a>
+                                  </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text"  href="../business.html">事業内容 <span class="index-text-english">Business Description </span>
+                        </a>
+                        <button class="toggle-btn">＋</button>
+                   </div>
+                        <div class="accordion-content">
+                            <a href="../business/holdings.html" class="index-more">-ホールディングス事業</a>
+                            <a href="../business/group.html" class="index-more">-グループ会社紹介</a>
+                          </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text"  href="../adoption.html">採用情報<span class="index-text-english"> Careers</span>
+                        </a>
+                        <button class="toggle-btn">＋</button>
+                    </div>
+                            <div class="accordion-content">
+                                <a href="../adoption/executive.html" class="index-more">-経営幹部採用</a>
+                                <a href="../adoption/employee.html" class="index-more">-社員採用</a>
+                                <a href="../adoption/part.html" class="index-more">-アルバイト採用</a>
+                              </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text"  href="../contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+                        <button class="toggle-btn">＋</button>
+                    </div>
+                            <div class="accordion-content">
+                                <a href="../contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                                <a href="../contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                                <a href="../contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                                <a href="../contact/sales.html" class="index-more">-営業の方はこちら</a>
+                              </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
     <main class="l-main">
 
         <!-- kv -->
@@ -75,7 +117,7 @@
               <a href="/company/">企業情報</a>
             </li>
             <li class="m-breadcrumb__listItem">
-              <a href="/company/message/">社長メッセージ</a>
+              <a href="/company/message/">グループCEOメッセージ</a>
             </li>
           </ul>
         </div>
@@ -114,12 +156,12 @@
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
                 <div class="l-sectionLv2">
-                  <p class="m-txt u-tar">株式会社リライト・<br class="u-spi">ホールディングス</p>
+                  <p class="m-txt u-tar">株式会社リライトホールディングス</p>
                   <p class="m-txt u-tar">
-                    取締役社長　<img loading="lazy" decoding="async" class="u-width--auto u-vaSub" src="" alt="広永 勝太">
+                    代表取締役 CEO　<img loading="lazy" decoding="async" class="u-width--auto u-vaSub" src="" alt="広永 勝太">
                   </p>
                   <p class="m-txt u-tar">
-                    取締役副社長　<img loading="lazy" decoding="async" class="u-width--auto u-vaSub" src="" alt="西村 佳晃">
+                    代表取締役　<img loading="lazy" decoding="async" class="u-width--auto u-vaSub" src="" alt="西村 佳晃">
                   </p>
                   <p class="m-txt u-tar">
                     代表取締役　<img loading="lazy" decoding="async" class="u-width--auto u-vaSub" src="" alt="大森 健一">
@@ -132,43 +174,71 @@
       
       </main>
       <footer>
-        <div class="footer">
-            <div class="footer-text">
-                <h2>企業情報</h2>
-                <div class="detailes">
-                    <a href="../company/message.html">-グループCEOメッセージ</a>
-                    <a href="../company/mission.html">-グループミッション・経営理念</a>
-                    <a href="../company/summary.html">-会社概要</a>
-                    <a href="../company/partnar.html">-提携先企業一覧</a>
+        <div class="footer-upper">
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text" href="../company.html">企業情報 <span class="index-text-english">Company Info</span>
+                </a>
+                <button class="toggle-btn">＋</button>
                 </div>
+                        <div class="accordion-content">
+                            <a href="../company/message.html" class="index-more">-グループCEOメッセージ</a>
+                            <a href="../company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                            <a href="../company/summary.html" class="index-more">-会社概要</a>
+                            <a href="../company/partnar.html" class="index-more">-提携先企業一覧</a>
+                          </div>
+            </li>
+        </ul>
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text"  href="../business.html">事業内容 <span class="index-text-english">Business Description </span>
+                </a>
+                <button class="toggle-btn">＋</button>
+           </div>
+                <div class="accordion-content">
+                    <a href="../business/holdings.html" class="index-more">-ホールディングス事業</a>
+                    <a href="../business/group.html" class="index-more">-グループ会社紹介</a>
+                  </div>
+            </li>
+        </ul>
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text"  href="../adoption.html">採用情報<span class="index-text-english"> Careers</span>
+                </a>
+                <button class="toggle-btn">＋</button>
             </div>
-            <div class="footer-text">
-                <h2>事業紹介</h2>
-                <div class="detailes">
-                    <a href="../business/holdings.html">-ホールディングス事業</a>
-                    <!-- <a href="business/subsidiary.html">-子会社の経営管理等</a> -->
-                    <a href="../business/group.html">-グループ会社紹介</a>
-                </div>
+                    <div class="accordion-content">
+                        <a href="../adoption/executive.html" class="index-more">-経営幹部採用</a>
+                        <a href="../adoption/employee.html" class="index-more">-社員採用</a>
+                        <a href="../adoption/part.html" class="index-more">-アルバイト採用</a>
+                      </div>
+            </li>
+        </ul>
+        <ul class="footer-index">
+            <li>
+                <div class="accordion">
+                <a class="index-text"  href="../contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+                <button class="toggle-btn">＋</button>
             </div>
-            <div class="footer-text">
-                <h2>採用情報</h2>
-                <div class="detailes">
-                    <a href="../adoption/executive.html">-経営幹部採用</a>
-                    <a href="../adoption/employee.html">-社員採用社員採用</a>
-                    <a href="../adoption/part.html">-アルバイト採用</a>
-                </div>
-            </div>
-            <div class="footer-text">
-                <h2>お問い合わせ</h2>
-            </div>
-        </div>
+                    <div class="accordion-content">
+                        <a href="../contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                        <a href="../contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                        <a href="../contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                        <a href="../contact/sales.html" class="index-more">-営業の方はこちら</a>
+                      </div>
+            </li>
+        </ul>
+    </div>
         <div class="copyright-tab">
             <a href="#"><img src="../img/logo.jpg" alt=""></a><br>
             <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-<script src="../js/hamberger_btn.js"></script>
+    <script src="../js/main.js"></script>
 <script src="../js/script.js"></script>
 </body>
 </head>
